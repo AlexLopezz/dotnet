@@ -1,0 +1,12 @@
+C:\Users\Labor\Documents\CSharp_Projects\Projects\TaTeTi_By_AlexLopez\bin\Debug\TaTeTi_By_AlexLopez.exe.config
+C:\Users\Labor\Documents\CSharp_Projects\Projects\TaTeTi_By_AlexLopez\bin\Debug\TaTeTi_By_AlexLopez.exe
+C:\Users\Labor\Documents\CSharp_Projects\Projects\TaTeTi_By_AlexLopez\bin\Debug\TaTeTi_By_AlexLopez.pdb
+C:\Users\Labor\Documents\CSharp_Projects\Projects\TaTeTi_By_AlexLopez\obj\Debug\TaTeTi_By_AlexLopez.csproj.AssemblyReference.cache
+C:\Users\Labor\Documents\CSharp_Projects\Projects\TaTeTi_By_AlexLopez\obj\Debug\TaTeTi_By_AlexLopez.csproj.SuggestedBindingRedirects.cache
+C:\Users\Labor\Documents\CSharp_Projects\Projects\TaTeTi_By_AlexLopez\obj\Debug\TaTeTi_By_AlexLopez.ApplicationTaTeTi.resources
+C:\Users\Labor\Documents\CSharp_Projects\Projects\TaTeTi_By_AlexLopez\obj\Debug\TaTeTi_By_AlexLopez.Properties.Resources.resources
+C:\Users\Labor\Documents\CSharp_Projects\Projects\TaTeTi_By_AlexLopez\obj\Debug\TaTeTi_By_AlexLopez.RegUser.resources
+C:\Users\Labor\Documents\CSharp_Projects\Projects\TaTeTi_By_AlexLopez\obj\Debug\TaTeTi_By_AlexLopez.csproj.GenerateResource.cache
+C:\Users\Labor\Documents\CSharp_Projects\Projects\TaTeTi_By_AlexLopez\obj\Debug\TaTeTi_By_AlexLopez.csproj.CoreCompileInputs.cache
+C:\Users\Labor\Documents\CSharp_Projects\Projects\TaTeTi_By_AlexLopez\obj\Debug\TaTeTi_By_AlexLopez.exe
+C:\Users\Labor\Documents\CSharp_Projects\Projects\TaTeTi_By_AlexLopez\obj\Debug\TaTeTi_By_AlexLopez.pdb

@@ -1,0 +1,11 @@
+C:\Users\Labor\Documents\CSharp_Projects\Projects\Block_De_Notas. Alex_Lopez\bin\Debug\Block_De_Notas.Alex_Lopez.exe.config
+C:\Users\Labor\Documents\CSharp_Projects\Projects\Block_De_Notas. Alex_Lopez\bin\Debug\Block_De_Notas.Alex_Lopez.exe
+C:\Users\Labor\Documents\CSharp_Projects\Projects\Block_De_Notas. Alex_Lopez\bin\Debug\Block_De_Notas.Alex_Lopez.pdb
+C:\Users\Labor\Documents\CSharp_Projects\Projects\Block_De_Notas. Alex_Lopez\obj\Debug\Block_De_Notas_Desk.csproj.AssemblyReference.cache
+C:\Users\Labor\Documents\CSharp_Projects\Projects\Block_De_Notas. Alex_Lopez\obj\Debug\Block_De_Notas_Desk.csproj.SuggestedBindingRedirects.cache
+C:\Users\Labor\Documents\CSharp_Projects\Projects\Block_De_Notas. Alex_Lopez\obj\Debug\Block_De_Notas.Alex_Lopez.BlocDeNotas.resources
+C:\Users\Labor\Documents\CSharp_Projects\Projects\Block_De_Notas. Alex_Lopez\obj\Debug\Block_De_Notas.Alex_Lopez.Properties.Resources.resources
+C:\Users\Labor\Documents\CSharp_Projects\Projects\Block_De_Notas. Alex_Lopez\obj\Debug\Block_De_Notas_Desk.csproj.GenerateResource.cache
+C:\Users\Labor\Documents\CSharp_Projects\Projects\Block_De_Notas. Alex_Lopez\obj\Debug\Block_De_Notas_Desk.csproj.CoreCompileInputs.cache
+C:\Users\Labor\Documents\CSharp_Projects\Projects\Block_De_Notas. Alex_Lopez\obj\Debug\Block_De_Notas.Alex_Lopez.exe
+C:\Users\Labor\Documents\CSharp_Projects\Projects\Block_De_Notas. Alex_Lopez\obj\Debug\Block_De_Notas.Alex_Lopez.pdb
