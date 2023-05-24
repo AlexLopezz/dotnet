@@ -1,0 +1,15 @@
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\bin\Debug\net6.0\CSharp#1.exe
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\bin\Debug\net6.0\CSharp#1.deps.json
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\bin\Debug\net6.0\CSharp#1.runtimeconfig.json
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\bin\Debug\net6.0\CSharp#1.dll
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\bin\Debug\net6.0\CSharp#1.pdb
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\obj\Debug\net6.0\CSharp#1.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\obj\Debug\net6.0\CSharp#1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\obj\Debug\net6.0\CSharp#1.AssemblyInfoInputs.cache
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\obj\Debug\net6.0\CSharp#1.AssemblyInfo.cs
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\obj\Debug\net6.0\CSharp#1.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\obj\Debug\net6.0\CSharp#1.dll
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\obj\Debug\net6.0\refint\CSharp#1.dll
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\obj\Debug\net6.0\CSharp#1.pdb
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\obj\Debug\net6.0\CSharp#1.genruntimeconfig.cache
+C:\Users\alexdev\Documents\DotNet\Fundamentals\Fundamentals\CSharp#1\obj\Debug\net6.0\ref\CSharp#1.dll

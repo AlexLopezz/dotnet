@@ -1,0 +1,12 @@
+C:\Users\alexdev\Documents\DotNet\WF\CRUD_WindowsForm\CRUD_Contacts\bin\Debug\CRUD_Contacts.exe.config
+C:\Users\alexdev\Documents\DotNet\WF\CRUD_WindowsForm\CRUD_Contacts\bin\Debug\CRUD_Contacts.exe
+C:\Users\alexdev\Documents\DotNet\WF\CRUD_WindowsForm\CRUD_Contacts\bin\Debug\CRUD_Contacts.pdb
+C:\Users\alexdev\Documents\DotNet\WF\CRUD_WindowsForm\CRUD_Contacts\obj\Debug\CRUD_Contacts.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\WF\CRUD_WindowsForm\CRUD_Contacts\obj\Debug\CRUD_Contacts.csproj.SuggestedBindingRedirects.cache
+C:\Users\alexdev\Documents\DotNet\WF\CRUD_WindowsForm\CRUD_Contacts\obj\Debug\CRUD_Contacts.FormContact.resources
+C:\Users\alexdev\Documents\DotNet\WF\CRUD_WindowsForm\CRUD_Contacts\obj\Debug\CRUD_Contacts.Main.resources
+C:\Users\alexdev\Documents\DotNet\WF\CRUD_WindowsForm\CRUD_Contacts\obj\Debug\CRUD_Contacts.Properties.Resources.resources
+C:\Users\alexdev\Documents\DotNet\WF\CRUD_WindowsForm\CRUD_Contacts\obj\Debug\CRUD_Contacts.csproj.GenerateResource.cache
+C:\Users\alexdev\Documents\DotNet\WF\CRUD_WindowsForm\CRUD_Contacts\obj\Debug\CRUD_Contacts.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\WF\CRUD_WindowsForm\CRUD_Contacts\obj\Debug\CRUD_Contacts.exe
+C:\Users\alexdev\Documents\DotNet\WF\CRUD_WindowsForm\CRUD_Contacts\obj\Debug\CRUD_Contacts.pdb
