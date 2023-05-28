@@ -1,0 +1,14 @@
+﻿<!-- Este archivo es el encargado de mostrar que ventana se mostrara al principio de
+    la aplicacion de acuerdo a lo indicado en la propiedad StartupUri.
+    
+    * En este caso, se ejecutara MainWindow.xaml 
+    * Esto, tambien se puede realizar desde code behind. -->
+    <Application x:Class="Events.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Events"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

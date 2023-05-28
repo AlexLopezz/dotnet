@@ -1,0 +1,32 @@
+﻿<Window x:Class="Label.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Label"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel HorizontalAlignment="Center" Width="200">
+        <Label>Hola a todos, desde un Label</Label>
+        <Label Target="{Binding ElementName=txtName}">_Nombre</Label>
+        <TextBox x:Name="txtName" />
+        <Label Target="{Binding ElementName=txtLastName}">_Apellido</Label>
+        <TextBox x:Name="txtLastName"/>
+        <Label Target="{Binding ElementName=txtMessage}">_Mensaje</Label>
+        <TextBox x:Name="txtMessage"
+                 Height="50"/>
+
+        <Button x:Name="bttSend"
+                Content="Enviar"
+                Margin="20"
+                Width="80"
+                Background="Aqua"
+                Click="bttSend_Click"/>
+
+        <TextBlock Text="Mensaje enviado: "/>
+        <Label Name="txtContentMessage"
+               Height="120"
+               VerticalAlignment="Center"
+               FontSize="16"/>
+    </StackPanel>
+</Window>

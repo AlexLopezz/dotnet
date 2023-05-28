@@ -1,0 +1,36 @@
+﻿<Window x:Class="TextBlock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextBlock"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Aqua">
+        <TextBlock 
+            Background="White"
+            Margin="120">Esto es un bloque de texto</TextBlock>
+        <TextBlock Background="Wheat"
+                   Margin="150">Este es un <Span FontWeight="Bold" FontSize="12" Foreground="Blue">segundo texto <LineBreak/>Y este es mi texto definitivo.</Span>
+        </TextBlock>
+        <!-- Probando la propiedad CharacterEllipsis-->
+        <TextBlock 
+            Margin="180"
+            TextTrimming="CharacterEllipsis"> Este es otro texto largo, <Run FontFamily="Consolas" FontStyle="Oblique" Foreground="CadetBlue">que si se trata de achicar la pantalla</Run> no se mostrara</TextBlock>
+        <!-- Probando la propiedad Wrap -->
+        <TextBlock Margin="200,217,180,150"
+                   TextWrapping="Wrap"
+                   >Este es <Bold>
+     <Bold.Foreground>
+         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+             <GradientStop Color="#FFDAEBFF" Offset="0.99"/>
+             <GradientStop Color="#FF4598F5" Offset="0"/>
+         </LinearGradientBrush>
+     </Bold.Foreground>otro texto largo</Bold>,que si se trata de achicar la pantalla se <Italic>adaptara a su bloque</Italic></TextBlock>
+
+        <TextBlock Margin="22,319,10,-24"
+                   Foreground="Red"
+                   FontSize="80"
+                   >Texto de <Bold>color ROJO</Bold></TextBlock>
+    </Grid>
+</Window>

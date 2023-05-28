@@ -1,0 +1,39 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace Label
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void bttSend_Click(object sender, RoutedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(txtMessage.Text))
+            {
+                txtContentMessage.Content = txtMessage.Text;
+                txtMessage.Text = string.Empty;
+                txtLastName.Text = string.Empty;
+                txtName.Text = string.Empty;
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+﻿<Window x:Class="RadioButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadioButton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="380" Width="600"
+        Background="LightGreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0"
+                    HorizontalAlignment="Center"
+                    Width="200"
+                    Height="200"
+                    Background="AntiqueWhite"
+                    >
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0" Width="150">
+                <TextBlock TextWrapping="Wrap" Text="Valor 1"/>
+                <TextBox x:Name="txtValor1Calc" TextWrapping="Wrap" Text="" Margin="10,0,0,0" Width="95"/>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0" Width="150">
+                <TextBlock TextWrapping="Wrap" Text="Valor 2"/>
+                <TextBox x:Name="txtValor2Calc" TextWrapping="Wrap" Text="" Margin="10,0,0,0" Width="95"/>
+            </StackPanel>
+            <Canvas Height="50">
+                <RadioButton Name="rdSum" Content="Suma" IsChecked="True" Width="53" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="31" Canvas.Top="10">
+                </RadioButton>
+                <RadioButton Name="rdSubstract"  Content="Resta" Width="49" Canvas.Left="31" Canvas.Top="25" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <RadioButton Name="rdMulti" Content="Multiplicacion" Width="99" Canvas.Left="101" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <RadioButton Name="rdDiv" Content="Division" Width="64" Canvas.Left="101" Canvas.Top="25" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            </Canvas>
+
+
+
+
+            <Button Name="bttCalcularCalc"
+                    Content="Calcular"
+                    Width="100"
+                    Click="bttCalcularCalc_Click"/>
+            <TextBlock 
+                       Text="Resultado"
+                       HorizontalAlignment="Center"
+                       Margin="0,10,0,0"></TextBlock>
+            <TextBlock x:Name="txbResultCalc"
+                       Background="LightGray"
+                       Height="40"
+                       Margin="20,0,20,0"
+                       Text="Result here..."></TextBlock>
+
+        </StackPanel>
+
+        <StackPanel Grid.Column="1"
+                    HorizontalAlignment="Center"
+                    Width="200"
+                    Height="200"
+                    Background="AntiqueWhite">
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0" Width="150">
+                <TextBlock TextWrapping="Wrap" Text="Valor 1"/>
+                <TextBox x:Name="txtValor1Convert" TextWrapping="Wrap" Text="" Margin="10,0,0,0" Width="95"/>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0" Width="150"/>
+
+            <StackPanel Orientation="Horizontal" Width="200" Margin="0,5,0,0">
+                <RadioButton Name="rdCmToP" Margin="10,0,0,0" FontSize="8" Content="De cm a pulgadas"></RadioButton>
+                <RadioButton Name="rdPToCm" Margin="10,0,0,0" FontSize="8" Content="Pulgadas a Cm"></RadioButton>
+            </StackPanel>
+
+            <Button x:Name="bttConvert"
+                    Content="Convertir"
+                    Width="80"
+                    Margin="0,10,0,0"
+                    Click="bttConvert_Click"/>
+
+            <TextBlock x:Name="txbResultConvert"
+                       Background="LightGray"
+                       Height="40"
+                       Margin="20,5,20,0"
+                       Text="Result here..."/>
+        </StackPanel>
+
+    </Grid>
+</Window>

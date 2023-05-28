@@ -1,0 +1,26 @@
+﻿<Window x:Class="TextBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Width="250" Height="300">
+        <Label Content="_Nombre" Target="{Binding ElementName=txtName}" HorizontalAlignment="Center"/>
+        <TextBox x:Name="txtName"
+                 Width="150"/>
+        <Label Content="_Mensaje" Target="{Binding ElementName=txtMessage}" HorizontalAlignment="Center"/>
+        <TextBox x:Name="txtMessage"
+                 Width="180"
+                 Height="120"
+                 TextWrapping="Wrap"
+                 />
+        <StackPanel Orientation="Horizontal" Width="175" Margin="5" Height="30">
+            <Button Name="bttSend" Content="Enviar" Height="20" Margin="5,0" Click="bttSend_Click" Background="Green" Foreground="White"></Button>
+            <Button Name="bttClear" Content="Limpiar" Height="20" Margin="5,0" Click="bttClear_Click" Background="Aqua"></Button>
+            <Button Name="bttSelect" Width="75" Click="bttSelect_Click" Content="Seleccionado"></Button>
+        </StackPanel>
+        <TextBlock x:Name="txbMessageSend" Width ="180" TextWrapping="Wrap" Text="your message here..."/>
+    </StackPanel>
+</Window>
