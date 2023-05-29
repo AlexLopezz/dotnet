@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dNhEWLRv0J8hS5/lZ6UaDWDlZwTF7OYBksauBIqOn1xVj7h+94nKXs1jVujrD73K9Szlxj6X/eWjWt2wap1kTw==",
+  "dgSpecHash": "l7Tu1FTtma+gYXZH0KJUByi6kxY/zw5rv9vOBpn7r0jL4pfg9XvZGxKZNK4fgVzCc1j/xATa+ZyNSSUVLbdBBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\TextBlock\\TextBlock.csproj",
+  "projectFilePath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\TextBlock\\TextBlock.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

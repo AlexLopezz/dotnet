@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o25dQ2kl2IlagBodQrRDdDrypcELPGmrYpDalXqxDLPDEWAfG3wcycXpnzDJ1VSKM+nE1c//v9pZkvyNGcJN5g==",
+  "dgSpecHash": "FiwoS6E6EegkXo9AStIwCNKurf2FAai6mZeSYbXxAHrpFM0/DpJtwe10oHWhspZVnsTd//c60eGXwHbRIKJYdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\TextBox\\TextBox.csproj",
+  "projectFilePath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\TextBox\\TextBox.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

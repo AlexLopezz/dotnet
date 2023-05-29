@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\alexdev\Documents\.NET Fundamentals\WPF_Fundamentals\CheckBox\obj\Debug\net6.0-windows\
+C:\Users\alexdev\Documents\DotNet\.NET Fundamentals\WPF\CheckBox\obj\Debug\net6.0-windows\
 CheckBox
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\alexdev\Documents\.NET Fundamentals\WPF_Fundamentals\CheckBox\App.xaml
+C:\Users\alexdev\Documents\DotNet\.NET Fundamentals\WPF\CheckBox\App.xaml
 11407045341
 
 51425698452
 1941709816142
 MainWindow.xaml;
 
-True
+False
 

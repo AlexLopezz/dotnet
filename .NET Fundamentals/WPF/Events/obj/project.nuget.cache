@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZIsvGAw68mVmclxmVCxXj+zhl6ACSDBHTwN/WlBglPzj9LgQx4hQX9RnVKBL9i40qzAmJPUM4ZpaDOrG34lrSQ==",
+  "dgSpecHash": "6riYKVg/xhWtg5UocAjOo2PuexRdLdDKdLy0uJ3kAqh6GjbJZmtPX5PLcOAh300aMY1niy5+iISwnrEl0gWmbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\Events\\Events.csproj",
+  "projectFilePath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\Events\\Events.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

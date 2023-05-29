@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:RadioButton"
         mc:Ignorable="d"
         Title="MainWindow" Height="380" Width="600"
-        Background="LightGreen">
+        Background="LightGreen" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -82,6 +82,7 @@
                        Background="LightGray"
                        Height="40"
                        Margin="20,5,20,0"
+                       TextWrapping="Wrap"
                        Text="Result here..."/>
         </StackPanel>
 

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\Label\\Label.csproj",
+      "projectUniqueName": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\Label\\Label.csproj",
       "projectName": "Label",
-      "projectPath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\Label\\Label.csproj",
+      "projectPath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\Label\\Label.csproj",
       "packagesPath": "C:\\Users\\alexdev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\Label\\obj\\",
+      "outputPath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\Label\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexdev\\AppData\\Roaming\\NuGet\\NuGet.Config",

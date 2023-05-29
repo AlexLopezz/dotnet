@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\TextBlock\\TextBlock.csproj",
+      "projectUniqueName": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\TextBlock\\TextBlock.csproj",
       "projectName": "TextBlock",
-      "projectPath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\TextBlock\\TextBlock.csproj",
+      "projectPath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\TextBlock\\TextBlock.csproj",
       "packagesPath": "C:\\Users\\alexdev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\TextBlock\\obj\\",
+      "outputPath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\TextBlock\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexdev\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mvDhe8bpWev0TRzh7kWoY3lJQSSOLaJJcU9sTFLzPUmiS8nGp/ZxPFuLSNq4u48+JbIkBtPfqexN6+6O4tewHA==",
+  "dgSpecHash": "LidAg508Urs/HVr34HWA9DzfE/nIGyO6XFixhOZ5QTXZNGcslJiV4PFHZ6PkpntTamWM5IWKpv23xvDEztAmwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\CheckBox\\CheckBox.csproj",
+  "projectFilePath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\CheckBox\\CheckBox.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

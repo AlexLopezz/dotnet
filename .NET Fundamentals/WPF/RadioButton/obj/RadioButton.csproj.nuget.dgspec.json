@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\RadioButton\\RadioButton.csproj": {}
+    "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\RadioButton\\RadioButton.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\RadioButton\\RadioButton.csproj": {
+    "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\RadioButton\\RadioButton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\RadioButton\\RadioButton.csproj",
+        "projectUniqueName": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\RadioButton\\RadioButton.csproj",
         "projectName": "RadioButton",
-        "projectPath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\RadioButton\\RadioButton.csproj",
+        "projectPath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\RadioButton\\RadioButton.csproj",
         "packagesPath": "C:\\Users\\alexdev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\RadioButton\\obj\\",
+        "outputPath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\RadioButton\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexdev\\AppData\\Roaming\\NuGet\\NuGet.Config",

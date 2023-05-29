@@ -53,8 +53,19 @@ namespace RadioButton
         {
             try
             {
+                double value = double.Parse(txtValor1Convert.Text);
+                double result = 0;
+                if (rdCmToP.IsChecked == true) result =  Conversor.CmToInches(value);
+                if (rdPToCm.IsChecked == true) result = Conversor.InchesToCm(value);
 
-            }catch(FormatException)
+                txbResultConvert.Text = $"El resultado es: {result}";
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Verifique el ingreso de valores correctos.");
+                txbResultConvert.Text  = messageResult;
+                txtValor1Convert.Text = string.Empty;
+            }
 
         }
 

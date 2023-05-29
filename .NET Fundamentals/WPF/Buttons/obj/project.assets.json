@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\Buttons\\Buttons.csproj",
+      "projectUniqueName": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\Buttons\\Buttons.csproj",
       "projectName": "Buttons",
-      "projectPath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\Buttons\\Buttons.csproj",
+      "projectPath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\Buttons\\Buttons.csproj",
       "packagesPath": "C:\\Users\\alexdev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\Buttons\\obj\\",
+      "outputPath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\Buttons\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexdev\\AppData\\Roaming\\NuGet\\NuGet.Config",

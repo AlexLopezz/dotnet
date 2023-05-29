@@ -1,0 +1,36 @@
+﻿<Window x:Class="PasswordBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PasswordBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="200" Background="Aqua"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="200"
+                    Height="150">
+            <Label Content="_Usuario"
+                   Target="{Binding ElementName=txtUser}"
+                   HorizontalAlignment="Center"/>
+            <TextBox Name="txtUser"
+                     HorizontalAlignment="Center" 
+                     Width="100"/>
+            <Label Content="_Contraseña"
+                   Target="{Binding ElementName=txtPassword}"
+                   HorizontalAlignment="Center"/>
+            <PasswordBox 
+                   Name="txtPassword"
+                   HorizontalAlignment="Center"
+                   Width="100"/>
+
+            <Button Name="bttSignIn"
+                    Content="Entrar"
+                    Margin="20"
+                    Width="80"
+                    Click="bttSignIn_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
