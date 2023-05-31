@@ -1,0 +1,47 @@
+﻿<Window x:Class="ToolBarWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToolBarWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="600"
+        WindowStartupLocation="CenterScreen" Background="Aquamarine">
+    <Grid>
+        <!-- Orientation: Vertical -->
+        <ToolBarTray HorizontalAlignment="Center"
+                     VerticalAlignment="Top"
+                     Orientation="Horizontal">
+            <ToolBar HorizontalAlignment="Center" RenderTransformOrigin="0.84,0.507">
+                <Button Name="btt1"
+                        Height="100"
+                        Width="100"
+                        Click="btt1_Click">
+                    <Image Source="/brand-shopee.png"/>
+                </Button>
+                <Separator/>
+                <Button Name="btt2"
+                        Height="100"
+                        Width="100"
+                        Click="btt2_Click">
+                    <Image Source="/alarm-filled.png"/>
+                </Button>
+                <Separator/>
+                <Button Name="btt3"
+                        Height="100"
+                        Width="100"
+                        Click="btt3_Click">
+                    <Image Source="/apps-filled.png"/>
+                </Button>
+                <Separator/>
+                <Button Name="btt4"
+                        Height="100"
+                        Width="100"
+                        Click="btt4_Click">
+                    <Image Source="/164903.jpg" Stretch="Fill"/>
+                </Button>
+                <Separator/>
+            </ToolBar>
+        </ToolBarTray>
+    </Grid>
+</Window>

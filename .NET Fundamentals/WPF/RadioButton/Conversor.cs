@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RadioButton
 {
-    static class Conversor
+    public static class Conversor
     {
         public static double CmToInches(double v1) => v1 * 0.39370;
         public static double InchesToCm(double v1) => v1 / 0.39370;

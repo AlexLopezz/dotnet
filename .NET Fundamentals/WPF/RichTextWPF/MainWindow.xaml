@@ -1,0 +1,32 @@
+﻿<Window x:Class="RichTextWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RichTextWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <!--Ejemplo de FlowDocumentScrollViewer -->
+        <FlowDocumentScrollViewer IsToolBarVisible="True"
+                                  Zoom="50"
+                                  ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <FlowDocument>
+                <Paragraph FontSize="36" TextAlignment="Center">Alex Lopez</Paragraph>
+                <Paragraph FontStyle="Italic"
+                           TextAlignment="Center"
+                           Foreground="Blue"
+                           FontSize="18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim posuere libero, quis vestibulum diam volutpat et. Ut consectetur felis at lectus faucibus, vitae venenatis lacus ullamcorper. Donec porta, mi in luctus imperdiet, quam ligula imperdiet turpis, id eleifend nibh mi ac tortor. Cras suscipit sapien sit amet enim varius aliquet. Nam tristique quam eu ante porta, ut ullamcorper velit tristique. Nam lacinia iaculis mauris, ut consequat purus venenatis sit amet. Proin vitae ligula urna. Curabitur nec mi ut justo fringilla hendrerit at vel magna. Proin sed nulla vitae est venenatis feugiat vitae nec turpis. Phasellus quis tellus condimentum ex maximus interdum sed id tellus. Aliquam erat volutpat. Duis pellentesque est eget ultrices porta.
+                            </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        <FlowDocumentScrollViewer>
+            <FlowDocument IsOptimalParagraphEnabled="True">
+                <Paragraph FontSize="18"
+                           TextAlignment="Center"
+                           Foreground="Red"
+                           >Quisque eleifend tortor nibh, id interdum magna suscipit id. Donec condimentum mollis magna sed maximus. Nunc dictum efficitur elit id tristique. Quisque in luctus elit. Integer ac porta nunc, in dictum erat. Integer non cursus tortor. Vestibulum fringilla accumsan erat, mattis lobortis sapien imperdiet viverra. In sed facilisis libero. Integer ultricies dui nec urna egestas lacinia. Duis a velit tincidunt, pretium leo et, pretium velit. Sed ut vehicula tortor. Quisque elementum diam id libero vehicula congue.</Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </StackPanel>
+</Window>

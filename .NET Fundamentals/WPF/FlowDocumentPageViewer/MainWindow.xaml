@@ -1,0 +1,27 @@
+﻿<Window x:Class="FlowDocumentPageViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlowDocumentPageViewer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    <DockPanel>
+        <Button x:Name="bttSearch"
+                DockPanel.Dock="Top"
+                HorizontalAlignment="Left"
+                Width="80"
+                Height="30"
+                Click="bttSearch_Click" 
+                Content="Buscar"/>
+        <FlowDocumentPageViewer DockPanel.Dock="Top"
+                                Name="fdText">
+            <FlowDocument>
+                <Paragraph FontSize="32">Where does it come from?</Paragraph>
+                <Paragraph FontSize="24">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentPageViewer>
+    </DockPanel>
+</Window>

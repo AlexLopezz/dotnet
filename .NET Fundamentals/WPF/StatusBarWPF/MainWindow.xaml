@@ -1,0 +1,32 @@
+﻿<Window x:Class="StatusBarWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StatusBarWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="400"
+        WindowStartupLocation="CenterScreen"
+        Background="Aquamarine">
+    <DockPanel>
+        <StatusBar DockPanel.Dock="Bottom" VerticalAlignment="Bottom"
+                   Height="30">
+            <StatusBarItem>
+                <TextBlock x:Name="txtPalabras" 
+                           Width="100"
+                           Text="Palabras: "/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <Separator/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock x:Name="txtCaracteres"
+                           Width="100"
+                           Text="Caracteres: "/>
+            </StatusBarItem>
+        </StatusBar>
+        <TextBox Name="txtNotePad"
+                 AcceptsReturn="True"
+                 KeyDown="txtNotePad_KeyDown"/>
+    </DockPanel>
+</Window>
