@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\CheckBox\\CheckBox.csproj",
+      "projectUniqueName": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\CheckBox\\CheckBox.csproj",
       "projectName": "CheckBox",
-      "projectPath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\CheckBox\\CheckBox.csproj",
+      "projectPath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\CheckBox\\CheckBox.csproj",
       "packagesPath": "C:\\Users\\alexdev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\CheckBox\\obj\\",
+      "outputPath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\CheckBox\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexdev\\AppData\\Roaming\\NuGet\\NuGet.Config",

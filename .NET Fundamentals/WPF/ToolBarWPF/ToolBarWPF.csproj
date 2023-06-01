@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="164903.jpg" />
+    <None Remove="alarm-filled.png" />
+    <None Remove="apps-filled.png" />
+    <None Remove="brand-shopee.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="164903.jpg" />
+    <Resource Include="alarm-filled.png" />
+    <Resource Include="apps-filled.png" />
+    <Resource Include="brand-shopee.png" />
+  </ItemGroup>
+
+</Project>

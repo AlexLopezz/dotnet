@@ -1,0 +1,27 @@
+﻿<Window x:Class="DockPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DockPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--Por defecto, el ultimo boton tomara todo el espacio disponible.-->
+    <!--<DockPanel>
+        <Button DockPanel.Dock="Left" Content="Boton 1" />
+        <Button DockPanel.Dock="Top" Content="Boton 2" />
+        <Button DockPanel.Dock="Right" Content="Boton 3" />
+        <Button DockPanel.Dock="Bottom" Content="Boton 4" />
+        <Button DockPanel.Dock="Bottom" Content="Boton 5" />
+        <Button DockPanel.Dock="Bottom" Content="Boton 6" />
+    </DockPanel>-->
+    <!-- Con LastChildFill estamos indicando que no queremos que el ultimo elemento tome todo el espacio disponible. -->
+    <DockPanel LastChildFill="False">
+        <Button DockPanel.Dock="Left" Content="Boton 1" />
+        <Button DockPanel.Dock="Top" Content="Boton 2" />
+        <Button DockPanel.Dock="Right" Content="Boton 3" />
+        <Button DockPanel.Dock="Bottom" Content="Boton 4" />
+        <Button DockPanel.Dock="Bottom" Content="Boton 5" />
+        <Button DockPanel.Dock="Bottom" Content="Boton 6" />
+    </DockPanel>
+</Window>

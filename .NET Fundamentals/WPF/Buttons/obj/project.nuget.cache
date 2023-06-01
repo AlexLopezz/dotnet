@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WfP4klAvP0y3cSfbR8dAnxjupDWHjIhzegi3EP/Vw5heg7+R/qoYSguLGp5iU4OZt5exu8iuEtcj/fP6+3fkvw==",
+  "dgSpecHash": "zVKEwdQWQE+AbetJfp7+4YIsM0G+jSSiYHCAWqsCuSje+kUKsw64j+i6ZcSxvGjcpWaLAbUKi9P5gnXqjBKqag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\Buttons\\Buttons.csproj",
+  "projectFilePath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\Buttons\\Buttons.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

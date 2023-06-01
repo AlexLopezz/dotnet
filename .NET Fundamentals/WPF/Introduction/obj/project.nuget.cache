@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qnC+M4sCbiajZMZHWBFVXJ+DjnknT6msVuF3z17IKYHPmJ+zwgx5oqqT/NlfwvZzWeYdFoAEBFf2sAlJramOPg==",
+  "dgSpecHash": "d+rOpPSyotHjvOpb8YaGVb4cUS/H0LZMZFOFng1tkcmigVp+r1O+taNcky310m2p+WS6RGFt/GtwwOr4E1ahSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\Introduction\\Introduction.csproj",
+  "projectFilePath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\Introduction\\Introduction.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hDW9Ll6KrPEikyuK3OxHdNLnGtMr/V1vX8W8dlHCfHSlonkFBo6JCsCnCvw8vQEv/GAmcP4HWSYxzLiTL7Q0tQ==",
+  "dgSpecHash": "/f2RmCcOpSPXX0ApAEdYRvlNt1p89RHG1KjAIqnwxQARskTxDeBb8sOqb8AVwt5MGG4Io4t4IJVAzCz203bzTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexdev\\Documents\\.NET Fundamentals\\WPF_Fundamentals\\RadioButton\\RadioButton.csproj",
+  "projectFilePath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\WPF\\RadioButton\\RadioButton.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
