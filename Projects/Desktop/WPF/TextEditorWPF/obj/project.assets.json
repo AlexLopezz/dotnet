@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexdev\\source\\repos\\TextEditorWPF\\TextEditorWPF.csproj",
+      "projectUniqueName": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\Desktop\\WPF\\TextEditorWPF\\TextEditorWPF.csproj",
       "projectName": "TextEditorWPF",
-      "projectPath": "C:\\Users\\alexdev\\source\\repos\\TextEditorWPF\\TextEditorWPF.csproj",
+      "projectPath": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\Desktop\\WPF\\TextEditorWPF\\TextEditorWPF.csproj",
       "packagesPath": "C:\\Users\\alexdev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexdev\\source\\repos\\TextEditorWPF\\obj\\",
+      "outputPath": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\Desktop\\WPF\\TextEditorWPF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexdev\\AppData\\Roaming\\NuGet\\NuGet.Config",

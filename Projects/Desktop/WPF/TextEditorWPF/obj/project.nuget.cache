@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B0bEh3qIyD8v47fx+dJoGTc5WazLIltvd5CctEMTNohetmNbMb9YwT1AvpN2bCLnQe7VaZdRIe9/hrWyVzQ+zA==",
+  "dgSpecHash": "W7wexsHlZC/GUBFfycLM0X/ZmmLz1hyb1/hMV8kZicnCxUL40PtgFad6vytX/yCoF0fUN2Duvrfsv8VzLjL8KA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexdev\\source\\repos\\TextEditorWPF\\TextEditorWPF.csproj",
+  "projectFilePath": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\Desktop\\WPF\\TextEditorWPF\\TextEditorWPF.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

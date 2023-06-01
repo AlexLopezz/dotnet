@@ -1,8 +1,10 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -58,9 +60,20 @@ namespace TextEditorWPF
         #endregion
 
         #region EVENTS
+        /**
+         * Este metodo, mostrara informacion del programa y su propio codigo fuente
+         * el cual, si aprieta el boton de 'Si', redireccionara al codigo que se encuentra
+         * en GitHub de mi proyecto.
+         */ 
         private void mnuAbout_Click(object sender, RoutedEventArgs e)
         {
-
+            string URLRepo = "https://github.com/AlexLopezz/DotNet/tree/main/Projects/Desktop/WPF/TextEditorWPF";
+            
+            MessageBoxResult result = MessageBox.Show("Este programa fue desarrollado por Alex Lopez. ¿Desea ver el codigo fuente en el repositorio de GitHub?", "Created by Alex Lopez", MessageBoxButton.YesNo, MessageBoxImage.Information);
+            if (result == MessageBoxResult.Yes)
+            {
+                Process.Start(new ProcessStartInfo("cmd", $"/c start {URLRepo}") { CreateNoWindow = true });
+            }
         }
 
         /**
@@ -88,6 +101,14 @@ namespace TextEditorWPF
         }
 
         private void mnuClose_Click(object sender, RoutedEventArgs e) => this.Close();
+
+        private void txtNotePad_KeyDown(object sender, KeyEventArgs e)
+        {
+            string[] words = txtNotePad.Text.Split(" ");
+
+            stCharacters.Content = defaultStringCharacters + txtNotePad.Text.Length; //Concat the default string with current length of txtNotePad.
+            stWords.Content = defaultStringWords + words.Length;
+        }
 
         private void mnuFont_Click(object sender, RoutedEventArgs e)
         {
