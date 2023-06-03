@@ -17,6 +17,9 @@
                           Header="Close"
                           Click="mnuClose_Click"/>
             </MenuItem>
+            <MenuItem   Name="mnuAbout"
+                        Header="About"
+                        Click="mnuAbout_Click"/>
         </Menu>
         <StackPanel Orientation="Horizontal"
                     DockPanel.Dock="Bottom">
@@ -33,8 +36,8 @@
                 </StatusBarItem>
                 <StatusBarItem>
                     <Button x:Name="bttPlayPause"
-                        Content="Play"
-                        Width="60"
+                        Content=""
+                        Width="70"
                         FontSize="20"
                         Click="bttPlayPause_Click"/>
                 </StatusBarItem>
@@ -68,6 +71,11 @@
                         </Button.Background>
                     </Button>
                 </StatusBarItem>
+                <StatusBarItem>
+                    <TextBlock Name="stStatusMuted"
+                               Text="You are muted!"
+                               Foreground="Gray"/>
+                </StatusBarItem>
             </StatusBar>
 
             <StatusBar Margin="50,0,0,0">
@@ -81,7 +89,7 @@
                 </StatusBarItem>
                 <StatusBarItem>
                     <TextBlock Name="tbVolume" 
-                               Text="%100"
+                               Text=""
                                FontWeight="Bold"/>
                 </StatusBarItem>
                 <StatusBarItem>

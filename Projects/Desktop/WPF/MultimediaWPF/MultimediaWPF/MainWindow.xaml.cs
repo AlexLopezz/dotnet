@@ -1,6 +1,8 @@
 ﻿using Microsoft.Win32;
+using MultimediaWPF.Utils;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,22 +24,37 @@ namespace MultimediaWPF
     public partial class MainWindow : Window
     {
         OpenFileDialog openFileDialog;
+        Multimedia multimedia;
         public MainWindow()
         {
             InitializeComponent();
-            meMedia.LoadedBehavior = MediaState.Manual;
             openFileDialog = new OpenFileDialog();
-            bttPlayPause.IsEnabled = false;
+            EnabledButtons(false);
+            LoadMedia();
         }
-
-        bool isPlaying() => bttPlayPause.Content.Equals("Play");
-        void updateVolume(double volume)
+        void LoadMedia()
+        {
+            multimedia = new Multimedia(meMedia);
+            bttPlayPause.Content = multimedia.StatusMedia;
+        }
+        void EnabledButtons(bool hasSourceMedia)
+        {
+            bttAddVolume.IsEnabled = hasSourceMedia;
+            bttSubstractVolume.IsEnabled = hasSourceMedia;
+            bttPlayPause.IsEnabled = hasSourceMedia;
+            bttMuted.IsEnabled = hasSourceMedia;
+            bttForward.IsEnabled = hasSourceMedia;
+            bttBack.IsEnabled = hasSourceMedia;
+            bttStop.IsEnabled = hasSourceMedia;
+        }
+        void UpdateVolume(double volume)
         {
             double vol = Math.Round(volume * 100);
             tbVolume.Text = (vol).ToString();
         }
-        bool CanAddSubstractVolume() => meMedia.Volume > 0 || meMedia.Volume < 1;
+        void UpdateStatusMedia() => bttPlayPause.Content = multimedia.StatusMedia;
 
+        int getCurrentVolume() => int.Parse(tbVolume.Text);
         private void mnuOpen_Click(object sender, RoutedEventArgs e)
         {
             openFileDialog.FileName = "Your path video here...";
@@ -46,46 +63,58 @@ namespace MultimediaWPF
             if(openFileDialog.ShowDialog() == true)
             {
                 meMedia.Source = new Uri(openFileDialog.FileName);
-                bttPlayPause.IsEnabled = true;
-                updateVolume(meMedia.Volume);
+                EnabledButtons(true);
+                UpdateVolume(meMedia.Volume);
                 meMedia.Play();
             }
         }
         private void mnuClose_Click(object sender, RoutedEventArgs e) => this.Close();
         private void bttPlayPause_Click(object sender, RoutedEventArgs e)
         {
-            if (isPlaying())
+            if (multimedia.IsPlaying())
             {
-                bttPlayPause.Content = "Pause";
-                meMedia.Pause();
+                multimedia.Pause();
+                UpdateStatusMedia();
             }
             else
             {
-                bttPlayPause.Content = "Play";
-                meMedia.Play();
+                multimedia.Play();
+                UpdateStatusMedia();
             }
+            multimedia.Media.Opacity = 100;
         }
-        private void bttBack_Click(object sender, RoutedEventArgs e) => meMedia.Position -= TimeSpan.FromSeconds(10);
-        private void bttStop_Click(object sender, RoutedEventArgs e)  => meMedia.Stop();
-        private void bttForward_Click(object sender, RoutedEventArgs e) => meMedia.Position += TimeSpan.FromSeconds(10);
-        private void bttMuted_Click(object sender, RoutedEventArgs e) => meMedia.IsMuted = meMedia.IsMuted ? false : true;
+        private void bttBack_Click(object sender, RoutedEventArgs e) => multimedia.BackMedia();
+        private void bttStop_Click(object sender, RoutedEventArgs e)
+        {
+            multimedia.Stop();
+            UpdateStatusMedia();
+            multimedia.Media.Opacity = 0;
+        }
+        private void bttForward_Click(object sender, RoutedEventArgs e) => multimedia.ForwardMedia();
+        private void bttMuted_Click(object sender, RoutedEventArgs e)
+        {
+            meMedia.IsMuted = meMedia.IsMuted ? false : true;
+            stStatusMuted.Foreground = meMedia.IsMuted ? Brushes.Red : Brushes.Gray;
+        }
         private void bttSubstractVolume_Click(object sender, RoutedEventArgs e)
         {
-            bttSubstractVolume.IsEnabled = double.Parse(tbVolume.Text) > 0;
-            if (CanAddSubstractVolume())
+            if (getCurrentVolume() != 0)
             {
-                meMedia.Volume-=0.1;
-                updateVolume(meMedia.Volume);
+                multimedia.TurnDownVolume();
+                UpdateVolume(multimedia.GetVolume());
             } 
         }
         private void bttAddVolume_Click(object sender, RoutedEventArgs e)
         {
-            bttAddVolume.IsEnabled = int.Parse(tbVolume.Text) < 100;
-            if (CanAddSubstractVolume())
+            if(getCurrentVolume() != 100)
             {
-                meMedia.Volume+=0.1;
-                updateVolume(meMedia.Volume);
+                multimedia.TurnUpVolume();
+                UpdateVolume(multimedia.GetVolume());
             }
+        }
+        private void mnuAbout_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
