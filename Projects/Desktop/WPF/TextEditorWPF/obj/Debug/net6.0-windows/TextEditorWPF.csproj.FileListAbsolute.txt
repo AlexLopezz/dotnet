@@ -28,12 +28,10 @@ C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WPF\TextEditorWPF\bin\Debug\n
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WPF\TextEditorWPF\bin\Debug\net6.0-windows\TextEditorWPF.pdb
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WPF\TextEditorWPF\obj\Debug\net6.0-windows\TextEditorWPF.csproj.AssemblyReference.cache
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WPF\TextEditorWPF\obj\Debug\net6.0-windows\NotePad.g.cs
-C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WPF\TextEditorWPF\obj\Debug\net6.0-windows\WPF\Font.g.cs
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WPF\TextEditorWPF\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WPF\TextEditorWPF\obj\Debug\net6.0-windows\TextEditorWPF_MarkupCompile.cache
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WPF\TextEditorWPF\obj\Debug\net6.0-windows\TextEditorWPF_MarkupCompile.lref
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WPF\TextEditorWPF\obj\Debug\net6.0-windows\NotePad.baml
-C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WPF\TextEditorWPF\obj\Debug\net6.0-windows\WPF\Font.baml
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WPF\TextEditorWPF\obj\Debug\net6.0-windows\TextEditorWPF.g.resources
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WPF\TextEditorWPF\obj\Debug\net6.0-windows\TextEditorWPF.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WPF\TextEditorWPF\obj\Debug\net6.0-windows\TextEditorWPF.AssemblyInfoInputs.cache

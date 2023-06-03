@@ -24,9 +24,6 @@
                               Click="mnuClose_Click"/>
             </MenuItem>
             <MenuItem Header="Edit">
-                <MenuItem Name="mnuFont"
-                              Header="Font"
-                              Click="mnuFont_Click"/>
                 <MenuItem Name="mnuUndo"
                               Header="Undo"
                               Command="ApplicationCommands.Undo"/>
@@ -57,6 +54,8 @@
         </StatusBar>
         <TextBox Name="txtNotePad"
                  FontSize="18"
+                 TextWrapping="Wrap"
+                 AcceptsReturn="True"
                  KeyDown="txtNotePad_KeyDown"/>
     </DockPanel>
 </Window>

@@ -15,7 +15,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
 namespace TextEditorWPF
 {
     /// <summary>
@@ -34,7 +33,6 @@ namespace TextEditorWPF
             InitializeComponent();
             loadDefaultSrings();
             loadFileDialog();
-
         }
 
         #region INIT
@@ -108,11 +106,6 @@ namespace TextEditorWPF
 
             stCharacters.Content = defaultStringCharacters + txtNotePad.Text.Length; //Concat the default string with current length of txtNotePad.
             stWords.Content = defaultStringWords + words.Length;
-        }
-
-        private void mnuFont_Click(object sender, RoutedEventArgs e)
-        {
-
         }
         #endregion
     }
