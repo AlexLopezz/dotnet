@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TextEditorWPF"
         mc:Ignorable="d"
         Title="NotePad" Height="450" Width="800"
-        Icon="/Images/iconText.png" WindowStartupLocation="CenterScreen">
+        Icon="/Images/iconText.png" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="File">
@@ -17,10 +17,10 @@
                               Header="Open"
                               Click="mnuOpen_Click"/>
                 <MenuItem Name="mnuSave"
-                              Header="Save"
-                              Click="mnuSave_Click"/>
+                          Header="Save"
+                          Click="mnuSave_Click"/>
                 <MenuItem Name="mnuClose"
-                              Header="Exit"
+                              Header="Close"
                               Click="mnuClose_Click"/>
             </MenuItem>
             <MenuItem Header="Edit">

@@ -16,7 +16,7 @@ string cadena = "Esto es una cadena";
 char c = 'A';
 
 // Valores booleanos: true / false.
-bool booleano = true && true;
+bool booleano = false && true;
 
 //Esto, no es lo mismo.
 int? a = null; // No inicializamos la variable. Es decir, no tiene valor. Su valor es null.

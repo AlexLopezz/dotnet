@@ -22,20 +22,22 @@ namespace TextEditorWPF
     /// </summary>
     public partial class NotePad : Window
     {
-        #region UTILS
+        #region VARIABLES
         string? defaultStringCharacters, defaultStringWords;
-        OpenFileDialog? openFileDialog;
-        SaveFileDialog? saveFileDialog;
+        OpenFileDialog openFileDialog;
+        SaveFileDialog saveFileDialog;
         
         #endregion
         public NotePad()
         {
             InitializeComponent();
+        }
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
             loadDefaultSrings();
             loadFileDialog();
         }
-
-        #region INIT
+        #region UTILS
         void loadFileDialog()
         {
             openFileDialog = new OpenFileDialog();
@@ -55,8 +57,8 @@ namespace TextEditorWPF
             defaultStringCharacters = (string)stCharacters.Content;
             defaultStringWords = (string)stWords.Content;
         }
+        bool IsNotePadVoid() => txtNotePad.Text.Length == 0;
         #endregion
-
         #region EVENTS
         /**
          * Este metodo, mostrara informacion del programa y su propio codigo fuente
@@ -97,14 +99,23 @@ namespace TextEditorWPF
         {
             if(saveFileDialog.ShowDialog() == true) File.WriteAllText(saveFileDialog.FileName, txtNotePad.Text);
         }
+        private void mnuClose_Click(object sender, RoutedEventArgs e)
+        {
+            if (!IsNotePadVoid())
+            {
+                MessageBoxResult result = MessageBox.Show("¿Esta seguro que desea salir, sin antes guardar?",
+                                                          "Texto sin guardar.",
+                                                          MessageBoxButton.YesNo,
+                                                          MessageBoxImage.Question);
 
-        private void mnuClose_Click(object sender, RoutedEventArgs e) => this.Close();
-
+                if (result == MessageBoxResult.Yes) this.Close();
+            }
+        }
         private void txtNotePad_KeyDown(object sender, KeyEventArgs e)
         {
             string[] words = txtNotePad.Text.Split(" ");
 
-            stCharacters.Content = defaultStringCharacters + txtNotePad.Text.Length; //Concat the default string with current length of txtNotePad.
+            stCharacters.Content = defaultStringCharacters + txtNotePad.Text.Length;
             stWords.Content = defaultStringWords + words.Length;
         }
         #endregion

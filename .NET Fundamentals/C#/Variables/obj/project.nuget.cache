@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k8MZT6LbMV3qUkiLFgIJcCMS5fy/XXn1KbuLXyNVsKG5im8Yq8LKn5KE//d6Yldt9TFic/LfbUlPI3NdDBf0UQ==",
+  "dgSpecHash": "KXnQ/4nxstH2cXlbFNQUOJZt+kXAjiaxDTVV8M06AURbRTfPn/za3zdPYy8V9L1DB+BrzAEdFSFqTnh6UaVC+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexdev\\Documents\\DotNet\\Fundamentals\\Fundamentals\\Variables\\Variables.csproj",
+  "projectFilePath": "C:\\Users\\alexdev\\Documents\\DotNet\\.NET Fundamentals\\C#\\Variables\\Variables.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
