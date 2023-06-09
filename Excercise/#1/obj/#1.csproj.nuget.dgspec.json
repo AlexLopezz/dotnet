@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexdev\\source\\repos\\Excercise\\#1\\#1.csproj": {}
+    "C:\\Users\\alexdev\\Documents\\DotNet\\Excercise\\#1\\#1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexdev\\source\\repos\\Excercise\\#1\\#1.csproj": {
+    "C:\\Users\\alexdev\\Documents\\DotNet\\Excercise\\#1\\#1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexdev\\source\\repos\\Excercise\\#1\\#1.csproj",
+        "projectUniqueName": "C:\\Users\\alexdev\\Documents\\DotNet\\Excercise\\#1\\#1.csproj",
         "projectName": "#1",
-        "projectPath": "C:\\Users\\alexdev\\source\\repos\\Excercise\\#1\\#1.csproj",
+        "projectPath": "C:\\Users\\alexdev\\Documents\\DotNet\\Excercise\\#1\\#1.csproj",
         "packagesPath": "C:\\Users\\alexdev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexdev\\source\\repos\\Excercise\\#1\\obj\\",
+        "outputPath": "C:\\Users\\alexdev\\Documents\\DotNet\\Excercise\\#1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexdev\\AppData\\Roaming\\NuGet\\NuGet.Config",
