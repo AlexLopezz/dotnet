@@ -1,0 +1,15 @@
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\bin\Debug\net6.0\CalculadoraDeAreas.exe
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\bin\Debug\net6.0\CalculadoraDeAreas.deps.json
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\bin\Debug\net6.0\CalculadoraDeAreas.runtimeconfig.json
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\bin\Debug\net6.0\CalculadoraDeAreas.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\bin\Debug\net6.0\CalculadoraDeAreas.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\obj\Debug\net6.0\CalculadoraDeAreas.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\obj\Debug\net6.0\CalculadoraDeAreas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\obj\Debug\net6.0\CalculadoraDeAreas.AssemblyInfoInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\obj\Debug\net6.0\CalculadoraDeAreas.AssemblyInfo.cs
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\obj\Debug\net6.0\CalculadoraDeAreas.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\obj\Debug\net6.0\CalculadoraDeAreas.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\obj\Debug\net6.0\refint\CalculadoraDeAreas.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\obj\Debug\net6.0\CalculadoraDeAreas.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\obj\Debug\net6.0\CalculadoraDeAreas.genruntimeconfig.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\CalculadoraDeAreas\obj\Debug\net6.0\ref\CalculadoraDeAreas.dll

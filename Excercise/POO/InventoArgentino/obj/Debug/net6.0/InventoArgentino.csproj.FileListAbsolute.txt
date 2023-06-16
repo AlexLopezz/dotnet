@@ -1,0 +1,15 @@
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\bin\Debug\net6.0\InventoArgentino.exe
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\bin\Debug\net6.0\InventoArgentino.deps.json
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\bin\Debug\net6.0\InventoArgentino.runtimeconfig.json
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\bin\Debug\net6.0\InventoArgentino.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\bin\Debug\net6.0\InventoArgentino.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\obj\Debug\net6.0\InventoArgentino.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\obj\Debug\net6.0\InventoArgentino.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\obj\Debug\net6.0\InventoArgentino.AssemblyInfoInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\obj\Debug\net6.0\InventoArgentino.AssemblyInfo.cs
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\obj\Debug\net6.0\InventoArgentino.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\obj\Debug\net6.0\InventoArgentino.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\obj\Debug\net6.0\refint\InventoArgentino.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\obj\Debug\net6.0\InventoArgentino.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\obj\Debug\net6.0\InventoArgentino.genruntimeconfig.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\InventoArgentino\obj\Debug\net6.0\ref\InventoArgentino.dll

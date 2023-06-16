@@ -1,0 +1,15 @@
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\bin\Debug\net6.0\CuantasPrimaverasTenes.exe
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\bin\Debug\net6.0\CuantasPrimaverasTenes.deps.json
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\bin\Debug\net6.0\CuantasPrimaverasTenes.runtimeconfig.json
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\bin\Debug\net6.0\CuantasPrimaverasTenes.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\bin\Debug\net6.0\CuantasPrimaverasTenes.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\obj\Debug\net6.0\CuantasPrimaverasTenes.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\obj\Debug\net6.0\CuantasPrimaverasTenes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\obj\Debug\net6.0\CuantasPrimaverasTenes.AssemblyInfoInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\obj\Debug\net6.0\CuantasPrimaverasTenes.AssemblyInfo.cs
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\obj\Debug\net6.0\CuantasPrimaverasTenes.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\obj\Debug\net6.0\CuantasPrimaverasTenes.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\obj\Debug\net6.0\refint\CuantasPrimaverasTenes.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\obj\Debug\net6.0\CuantasPrimaverasTenes.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\obj\Debug\net6.0\CuantasPrimaverasTenes.genruntimeconfig.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\CuantasPrimaverasTenes\obj\Debug\net6.0\ref\CuantasPrimaverasTenes.dll

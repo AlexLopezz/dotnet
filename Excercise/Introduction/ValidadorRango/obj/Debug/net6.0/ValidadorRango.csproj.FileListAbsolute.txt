@@ -1,0 +1,15 @@
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\obj\Debug\net6.0\ValidadorRango.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\obj\Debug\net6.0\ValidadorRango.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\obj\Debug\net6.0\ValidadorRango.AssemblyInfoInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\obj\Debug\net6.0\ValidadorRango.AssemblyInfo.cs
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\obj\Debug\net6.0\ValidadorRango.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\bin\Debug\net6.0\ValidadorRango.exe
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\bin\Debug\net6.0\ValidadorRango.deps.json
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\bin\Debug\net6.0\ValidadorRango.runtimeconfig.json
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\bin\Debug\net6.0\ValidadorRango.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\bin\Debug\net6.0\ValidadorRango.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\obj\Debug\net6.0\ValidadorRango.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\obj\Debug\net6.0\refint\ValidadorRango.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\obj\Debug\net6.0\ValidadorRango.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\obj\Debug\net6.0\ValidadorRango.genruntimeconfig.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\ValidadorRango\obj\Debug\net6.0\ref\ValidadorRango.dll

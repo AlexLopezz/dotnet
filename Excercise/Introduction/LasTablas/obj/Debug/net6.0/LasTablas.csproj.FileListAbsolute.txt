@@ -1,0 +1,15 @@
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\bin\Debug\net6.0\LasTablas.exe
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\bin\Debug\net6.0\LasTablas.deps.json
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\bin\Debug\net6.0\LasTablas.runtimeconfig.json
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\bin\Debug\net6.0\LasTablas.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\bin\Debug\net6.0\LasTablas.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\obj\Debug\net6.0\LasTablas.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\obj\Debug\net6.0\LasTablas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\obj\Debug\net6.0\LasTablas.AssemblyInfoInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\obj\Debug\net6.0\LasTablas.AssemblyInfo.cs
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\obj\Debug\net6.0\LasTablas.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\obj\Debug\net6.0\LasTablas.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\obj\Debug\net6.0\refint\LasTablas.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\obj\Debug\net6.0\LasTablas.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\obj\Debug\net6.0\LasTablas.genruntimeconfig.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\LasTablas\obj\Debug\net6.0\ref\LasTablas.dll

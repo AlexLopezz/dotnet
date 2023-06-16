@@ -1,0 +1,15 @@
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\bin\Debug\net6.0\FactorialNumero.exe
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\bin\Debug\net6.0\FactorialNumero.deps.json
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\bin\Debug\net6.0\FactorialNumero.runtimeconfig.json
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\bin\Debug\net6.0\FactorialNumero.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\bin\Debug\net6.0\FactorialNumero.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\obj\Debug\net6.0\FactorialNumero.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\obj\Debug\net6.0\FactorialNumero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\obj\Debug\net6.0\FactorialNumero.AssemblyInfoInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\obj\Debug\net6.0\FactorialNumero.AssemblyInfo.cs
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\obj\Debug\net6.0\FactorialNumero.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\obj\Debug\net6.0\FactorialNumero.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\obj\Debug\net6.0\refint\FactorialNumero.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\obj\Debug\net6.0\FactorialNumero.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\obj\Debug\net6.0\FactorialNumero.genruntimeconfig.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\FactorialNumero\obj\Debug\net6.0\ref\FactorialNumero.dll

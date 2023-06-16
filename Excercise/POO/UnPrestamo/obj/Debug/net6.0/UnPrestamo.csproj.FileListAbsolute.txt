@@ -1,0 +1,15 @@
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\bin\Debug\net6.0\UnPrestamo.exe
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\bin\Debug\net6.0\UnPrestamo.deps.json
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\bin\Debug\net6.0\UnPrestamo.runtimeconfig.json
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\bin\Debug\net6.0\UnPrestamo.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\bin\Debug\net6.0\UnPrestamo.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\obj\Debug\net6.0\UnPrestamo.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\obj\Debug\net6.0\UnPrestamo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\obj\Debug\net6.0\UnPrestamo.AssemblyInfoInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\obj\Debug\net6.0\UnPrestamo.AssemblyInfo.cs
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\obj\Debug\net6.0\UnPrestamo.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\obj\Debug\net6.0\UnPrestamo.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\obj\Debug\net6.0\refint\UnPrestamo.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\obj\Debug\net6.0\UnPrestamo.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\obj\Debug\net6.0\UnPrestamo.genruntimeconfig.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\UnPrestamo\obj\Debug\net6.0\ref\UnPrestamo.dll

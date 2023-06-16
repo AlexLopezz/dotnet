@@ -1,0 +1,15 @@
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\bin\Debug\net7.0\SistemaAutoNavegacion.exe
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\bin\Debug\net7.0\SistemaAutoNavegacion.deps.json
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\bin\Debug\net7.0\SistemaAutoNavegacion.runtimeconfig.json
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\bin\Debug\net7.0\SistemaAutoNavegacion.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\bin\Debug\net7.0\SistemaAutoNavegacion.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\obj\Debug\net7.0\SistemaAutoNavegacion.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\obj\Debug\net7.0\SistemaAutoNavegacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\obj\Debug\net7.0\SistemaAutoNavegacion.AssemblyInfoInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\obj\Debug\net7.0\SistemaAutoNavegacion.AssemblyInfo.cs
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\obj\Debug\net7.0\SistemaAutoNavegacion.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\obj\Debug\net7.0\SistemaAutoNavegacion.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\obj\Debug\net7.0\refint\SistemaAutoNavegacion.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\obj\Debug\net7.0\SistemaAutoNavegacion.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\obj\Debug\net7.0\SistemaAutoNavegacion.genruntimeconfig.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\SistemaAutoNavegacion\obj\Debug\net7.0\ref\SistemaAutoNavegacion.dll
