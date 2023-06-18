@@ -29,38 +29,73 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game));
-            panel1 = new Panel();
+            panelGame = new Panel();
+            bttNoodle_3 = new Button();
+            bttEmpanada_1 = new Button();
+            bttBurguer_0 = new Button();
             bttSimonSay = new Button();
-            lblJugador = new Label();
-            imgNoodle = new PictureBox();
-            imgPizza = new PictureBox();
-            imgEmpanada = new PictureBox();
-            imgBurguer = new PictureBox();
-            panel2 = new Panel();
-            bttClear = new Button();
+            lblDescriptionScore = new Label();
             lblScore = new Label();
-            listScore = new ListBox();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)imgNoodle).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)imgPizza).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)imgEmpanada).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)imgBurguer).BeginInit();
-            panel2.SuspendLayout();
+            bttPizza_2 = new Button();
+            panelGame.SuspendLayout();
             SuspendLayout();
             // 
-            // panel1
+            // panelGame
             // 
-            panel1.Controls.Add(bttSimonSay);
-            panel1.Controls.Add(lblJugador);
-            panel1.Controls.Add(imgNoodle);
-            panel1.Controls.Add(imgPizza);
-            panel1.Controls.Add(imgEmpanada);
-            panel1.Controls.Add(imgBurguer);
-            panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(584, 311);
-            panel1.TabIndex = 0;
+            panelGame.Controls.Add(bttNoodle_3);
+            panelGame.Controls.Add(bttEmpanada_1);
+            panelGame.Controls.Add(bttBurguer_0);
+            panelGame.Controls.Add(bttSimonSay);
+            panelGame.Controls.Add(lblDescriptionScore);
+            panelGame.Controls.Add(lblScore);
+            panelGame.Controls.Add(bttPizza_2);
+            panelGame.Dock = DockStyle.Fill;
+            panelGame.Location = new Point(0, 0);
+            panelGame.Name = "panelGame";
+            panelGame.Size = new Size(484, 311);
+            panelGame.TabIndex = 0;
+            // 
+            // bttNoodle_3
+            // 
+            bttNoodle_3.FlatAppearance.BorderSize = 0;
+            bttNoodle_3.FlatStyle = FlatStyle.Flat;
+            bttNoodle_3.Image = Properties.Resources.spaguetti;
+            bttNoodle_3.Location = new Point(246, 160);
+            bttNoodle_3.Name = "bttNoodle_3";
+            bttNoodle_3.Size = new Size(130, 92);
+            bttNoodle_3.TabIndex = 8;
+            bttNoodle_3.UseVisualStyleBackColor = true;
+            bttNoodle_3.Click += clickButton;
+            bttNoodle_3.MouseDown += PressButton;
+            bttNoodle_3.MouseUp += StopPressButton;
+            // 
+            // bttEmpanada_1
+            // 
+            bttEmpanada_1.FlatAppearance.BorderSize = 0;
+            bttEmpanada_1.FlatStyle = FlatStyle.Flat;
+            bttEmpanada_1.Image = Properties.Resources.empanada;
+            bttEmpanada_1.Location = new Point(246, 62);
+            bttEmpanada_1.Name = "bttEmpanada_1";
+            bttEmpanada_1.Size = new Size(130, 92);
+            bttEmpanada_1.TabIndex = 7;
+            bttEmpanada_1.UseVisualStyleBackColor = true;
+            bttEmpanada_1.Click += clickButton;
+            bttEmpanada_1.MouseDown += PressButton;
+            bttEmpanada_1.MouseUp += StopPressButton;
+            // 
+            // bttBurguer_0
+            // 
+            bttBurguer_0.FlatAppearance.BorderSize = 0;
+            bttBurguer_0.FlatStyle = FlatStyle.Flat;
+            bttBurguer_0.Image = Properties.Resources.hamburger;
+            bttBurguer_0.Location = new Point(110, 62);
+            bttBurguer_0.Name = "bttBurguer_0";
+            bttBurguer_0.Size = new Size(130, 92);
+            bttBurguer_0.TabIndex = 6;
+            bttBurguer_0.UseVisualStyleBackColor = true;
+            bttBurguer_0.Click += clickButton;
+            bttBurguer_0.MouseDown += PressButton;
+            bttBurguer_0.MouseUp += StopPressButton;
             // 
             // bttSimonSay
             // 
@@ -69,114 +104,55 @@
             bttSimonSay.FlatStyle = FlatStyle.Popup;
             bttSimonSay.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             bttSimonSay.ForeColor = Color.White;
-            bttSimonSay.Location = new Point(153, 258);
+            bttSimonSay.Location = new Point(183, 261);
             bttSimonSay.Name = "bttSimonSay";
             bttSimonSay.Size = new Size(119, 41);
             bttSimonSay.TabIndex = 5;
             bttSimonSay.Text = "SIMON SAY!";
             bttSimonSay.UseVisualStyleBackColor = false;
+            bttSimonSay.Click += bttSimonSay_Click;
             // 
-            // lblJugador
+            // lblDescriptionScore
             // 
-            lblJugador.AutoSize = true;
-            lblJugador.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            lblJugador.Location = new Point(12, 9);
-            lblJugador.Name = "lblJugador";
-            lblJugador.Size = new Size(116, 32);
-            lblJugador.TabIndex = 4;
-            lblJugador.Text = "*PLAYER*";
-            // 
-            // imgNoodle
-            // 
-            imgNoodle.Image = Properties.Resources.spaguetti;
-            imgNoodle.Location = new Point(216, 157);
-            imgNoodle.Name = "imgNoodle";
-            imgNoodle.Size = new Size(130, 92);
-            imgNoodle.SizeMode = PictureBoxSizeMode.Zoom;
-            imgNoodle.TabIndex = 3;
-            imgNoodle.TabStop = false;
-            // 
-            // imgPizza
-            // 
-            imgPizza.Image = Properties.Resources.pizza;
-            imgPizza.Location = new Point(80, 157);
-            imgPizza.Name = "imgPizza";
-            imgPizza.Size = new Size(130, 92);
-            imgPizza.SizeMode = PictureBoxSizeMode.Zoom;
-            imgPizza.TabIndex = 2;
-            imgPizza.TabStop = false;
-            // 
-            // imgEmpanada
-            // 
-            imgEmpanada.Image = Properties.Resources.empanada;
-            imgEmpanada.Location = new Point(216, 59);
-            imgEmpanada.Name = "imgEmpanada";
-            imgEmpanada.Size = new Size(130, 92);
-            imgEmpanada.SizeMode = PictureBoxSizeMode.Zoom;
-            imgEmpanada.TabIndex = 1;
-            imgEmpanada.TabStop = false;
-            // 
-            // imgBurguer
-            // 
-            imgBurguer.Image = Properties.Resources.burguer;
-            imgBurguer.Location = new Point(80, 59);
-            imgBurguer.Name = "imgBurguer";
-            imgBurguer.Size = new Size(130, 92);
-            imgBurguer.SizeMode = PictureBoxSizeMode.Zoom;
-            imgBurguer.TabIndex = 0;
-            imgBurguer.TabStop = false;
-            imgBurguer.Click += pictureBox1_Click;
-            // 
-            // panel2
-            // 
-            panel2.Controls.Add(bttClear);
-            panel2.Controls.Add(lblScore);
-            panel2.Controls.Add(listScore);
-            panel2.Dock = DockStyle.Right;
-            panel2.Location = new Point(411, 0);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(173, 311);
-            panel2.TabIndex = 1;
-            // 
-            // bttClear
-            // 
-            bttClear.BackColor = Color.Lime;
-            bttClear.FlatAppearance.BorderSize = 0;
-            bttClear.FlatStyle = FlatStyle.Popup;
-            bttClear.Location = new Point(57, 255);
-            bttClear.Name = "bttClear";
-            bttClear.Size = new Size(75, 26);
-            bttClear.TabIndex = 2;
-            bttClear.Text = "CLEAR";
-            bttClear.UseVisualStyleBackColor = false;
+            lblDescriptionScore.AutoSize = true;
+            lblDescriptionScore.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            lblDescriptionScore.Location = new Point(110, 18);
+            lblDescriptionScore.Name = "lblDescriptionScore";
+            lblDescriptionScore.Size = new Size(170, 32);
+            lblDescriptionScore.TabIndex = 4;
+            lblDescriptionScore.Text = "YOUR SCORE: ";
             // 
             // lblScore
             // 
             lblScore.AutoSize = true;
-            lblScore.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            lblScore.Location = new Point(57, 22);
+            lblScore.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            lblScore.Location = new Point(274, 14);
             lblScore.Name = "lblScore";
-            lblScore.Size = new Size(70, 25);
+            lblScore.Size = new Size(33, 37);
             lblScore.TabIndex = 1;
-            lblScore.Text = "SCORE";
+            lblScore.Text = "0";
             // 
-            // listScore
+            // bttPizza_2
             // 
-            listScore.FormattingEnabled = true;
-            listScore.ItemHeight = 15;
-            listScore.Location = new Point(3, 50);
-            listScore.Name = "listScore";
-            listScore.Size = new Size(167, 199);
-            listScore.TabIndex = 0;
+            bttPizza_2.FlatAppearance.BorderSize = 0;
+            bttPizza_2.FlatStyle = FlatStyle.Flat;
+            bttPizza_2.Image = (Image)resources.GetObject("bttPizza_2.Image");
+            bttPizza_2.Location = new Point(110, 160);
+            bttPizza_2.Name = "bttPizza_2";
+            bttPizza_2.Size = new Size(130, 92);
+            bttPizza_2.TabIndex = 9;
+            bttPizza_2.UseVisualStyleBackColor = true;
+            bttPizza_2.Click += clickButton;
+            bttPizza_2.MouseDown += PressButton;
+            bttPizza_2.MouseUp += StopPressButton;
             // 
             // Game
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 166, 53);
-            ClientSize = new Size(584, 311);
-            Controls.Add(panel2);
-            Controls.Add(panel1);
+            ClientSize = new Size(484, 311);
+            Controls.Add(panelGame);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
@@ -184,29 +160,20 @@
             Name = "Game";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Simon Say - Game";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)imgNoodle).EndInit();
-            ((System.ComponentModel.ISupportInitialize)imgPizza).EndInit();
-            ((System.ComponentModel.ISupportInitialize)imgEmpanada).EndInit();
-            ((System.ComponentModel.ISupportInitialize)imgBurguer).EndInit();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
+            panelGame.ResumeLayout(false);
+            panelGame.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panel1;
-        private Label lblJugador;
-        private PictureBox imgNoodle;
-        private PictureBox imgPizza;
-        private PictureBox imgEmpanada;
-        private PictureBox imgBurguer;
-        private Panel panel2;
+        private Panel panelGame;
+        private Label lblDescriptionScore;
         private Button bttSimonSay;
         private Label lblScore;
-        private Button bttClear;
-        private ListBox listScore;
+        private Button bttNoodle_3;
+        private Button bttEmpanada_1;
+        private Button bttBurguer_0;
+        private Button bttPizza_2;
     }
 }

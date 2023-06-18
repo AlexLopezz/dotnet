@@ -63,9 +63,9 @@ namespace SimonSayWF.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap burguer {
+        internal static System.Drawing.Bitmap empanada {
             get {
-                object obj = ResourceManager.GetObject("burguer", resourceCulture);
+                object obj = ResourceManager.GetObject("empanada", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace SimonSayWF.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap empanada {
+        internal static System.Drawing.Bitmap hamburger {
             get {
-                object obj = ResourceManager.GetObject("empanada", resourceCulture);
+                object obj = ResourceManager.GetObject("hamburger", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

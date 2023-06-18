@@ -1,0 +1,15 @@
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\bin\Debug\net6.0\Sumador.exe
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\bin\Debug\net6.0\Sumador.deps.json
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\bin\Debug\net6.0\Sumador.runtimeconfig.json
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\bin\Debug\net6.0\Sumador.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\bin\Debug\net6.0\Sumador.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\obj\Debug\net6.0\Sumador.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\obj\Debug\net6.0\Sumador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\obj\Debug\net6.0\Sumador.AssemblyInfoInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\obj\Debug\net6.0\Sumador.AssemblyInfo.cs
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\obj\Debug\net6.0\Sumador.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\obj\Debug\net6.0\Sumador.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\obj\Debug\net6.0\refint\Sumador.dll
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\obj\Debug\net6.0\Sumador.pdb
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\obj\Debug\net6.0\Sumador.genruntimeconfig.cache
+C:\Users\alexdev\Documents\DotNet\Excercise\POO\Sumador\obj\Debug\net6.0\ref\Sumador.dll

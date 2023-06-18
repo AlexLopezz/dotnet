@@ -17,5 +17,4 @@ C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\SimonSayWF\SimonSayWF\obj\
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\SimonSayWF\SimonSayWF\obj\Debug\net6.0-windows\SimonSayWF.genruntimeconfig.cache
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\SimonSayWF\SimonSayWF\obj\Debug\net6.0-windows\ref\SimonSayWF.dll
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\SimonSayWF\SimonSayWF\obj\Debug\net6.0-windows\SimonSayWF.Properties.Resources.resources
-C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\SimonSayWF\SimonSayWF\obj\Debug\net6.0-windows\SimonSayWF.SelectedPlayers.resources
 C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\SimonSayWF\SimonSayWF\obj\Debug\net6.0-windows\SimonSayWF.g.resources

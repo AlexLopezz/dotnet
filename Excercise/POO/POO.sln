@@ -11,11 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploUniversal", "Ejemplo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoArgentino", "InventoArgentino\InventoArgentino.csproj", "{B8E0A271-13B6-43F7-B4EF-8F489D719938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaGeometria", "PruebaGeometria\PruebaGeometria.csproj", "{94C0B32D-E815-4CFB-800B-38BF6485AAF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaGeometria", "PruebaGeometria\PruebaGeometria.csproj", "{94C0B32D-E815-4CFB-800B-38BF6485AAF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaAutoNavegacion", "SistemaAutoNavegacion\SistemaAutoNavegacion.csproj", "{94539D3F-12F3-467A-8585-7045714CC7EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaAutoNavegacion", "SistemaAutoNavegacion\SistemaAutoNavegacion.csproj", "{94539D3F-12F3-467A-8585-7045714CC7EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veterinaria", "Veterinaria\Veterinaria.csproj", "{1E0A0798-217D-4487-855B-DBAAD274CDE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veterinaria", "Veterinaria\Veterinaria.csproj", "{1E0A0798-217D-4487-855B-DBAAD274CDE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sumador", "Sumador\Sumador.csproj", "{8E268B7C-B2B9-48E6-88B9-BA6910C188BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cotizador", "Cotizador\Cotizador.csproj", "{D322CF15-43ED-4B35-8FAD-BEDA74AF32EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorBinario", "ConversorBinario\ConversorBinario.csproj", "{A152B4BE-7EC7-4547-8D4E-58933FFFB137}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{1E0A0798-217D-4487-855B-DBAAD274CDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E0A0798-217D-4487-855B-DBAAD274CDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E0A0798-217D-4487-855B-DBAAD274CDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E268B7C-B2B9-48E6-88B9-BA6910C188BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E268B7C-B2B9-48E6-88B9-BA6910C188BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E268B7C-B2B9-48E6-88B9-BA6910C188BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E268B7C-B2B9-48E6-88B9-BA6910C188BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D322CF15-43ED-4B35-8FAD-BEDA74AF32EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D322CF15-43ED-4B35-8FAD-BEDA74AF32EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D322CF15-43ED-4B35-8FAD-BEDA74AF32EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D322CF15-43ED-4B35-8FAD-BEDA74AF32EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A152B4BE-7EC7-4547-8D4E-58933FFFB137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A152B4BE-7EC7-4547-8D4E-58933FFFB137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A152B4BE-7EC7-4547-8D4E-58933FFFB137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A152B4BE-7EC7-4547-8D4E-58933FFFB137}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

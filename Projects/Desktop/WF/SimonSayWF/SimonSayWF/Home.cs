@@ -12,16 +12,16 @@ namespace SimonSayWF
 {
     public partial class Home : Form
     {
-        private SelectedPlayers _formSelectedPlayers;
+        Game game;
         public Home()
         {
             InitializeComponent();
-            _formSelectedPlayers = new SelectedPlayers();
+            game = new Game();
         }
 
         private void eventStart(object sender, EventArgs e)
         {
-            _formSelectedPlayers.Show();
+            game.Show();
             this.Hide();
         }
         private void eventExit(object sender, EventArgs e) => Application.Exit();

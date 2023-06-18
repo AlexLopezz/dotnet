@@ -43,6 +43,21 @@ namespace Veterinaria.Utils
             return sb.ToString();
         }
 
-        public override string? ToString() => this.Nickname;
+        public override string? ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append("Nombre: ").Append(Nickname).Append("\n");
+            if(Vaccines.Count > 0)
+            {
+                sb.Append("--- VACUNAS ---").Append("\n");
+                foreach(var v in Vaccines)
+                {
+                    sb.Append(" ->").Append(v).Append("\n");
+                }
+            }
+
+            return sb.ToString();
+        }
     }
 }
