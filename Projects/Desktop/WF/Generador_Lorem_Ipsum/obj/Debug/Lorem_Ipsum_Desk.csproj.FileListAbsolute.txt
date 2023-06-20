@@ -1,0 +1,11 @@
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\bin\Debug\Generador_Lorem_Ipsum.exe.config
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\bin\Debug\Generador_Lorem_Ipsum.exe
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\bin\Debug\Generador_Lorem_Ipsum.pdb
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\Lorem_Ipsum_Desk.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\Lorem_Ipsum_Desk.csproj.SuggestedBindingRedirects.cache
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\Generador_Lorem_Ipsum.Form1.resources
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\Generador_Lorem_Ipsum.Properties.Resources.resources
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\Lorem_Ipsum_Desk.csproj.GenerateResource.cache
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\Lorem_Ipsum_Desk.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\Generador_Lorem_Ipsum.exe
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\Generador_Lorem_Ipsum.pdb

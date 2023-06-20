@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\Desktop\\WF\\SimonSayWF\\SimonSayWF\\SimonSayWF.csproj",
-      "projectName": "SimonSayWF",
-      "projectPath": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\Desktop\\WF\\SimonSayWF\\SimonSayWF\\SimonSayWF.csproj",
+      "projectUniqueName": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\Desktop\\WF\\SimonSayWF\\SimonSayWF\\SimonSay.csproj",
+      "projectName": "SimonSay",
+      "projectPath": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\Desktop\\WF\\SimonSayWF\\SimonSayWF\\SimonSay.csproj",
       "packagesPath": "C:\\Users\\alexdev\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\Desktop\\WF\\SimonSayWF\\SimonSayWF\\obj\\",
       "projectStyle": "PackageReference",

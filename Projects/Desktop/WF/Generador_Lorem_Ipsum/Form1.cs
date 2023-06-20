@@ -50,9 +50,11 @@ namespace Generador_Lorem_Ipsum
         private void load_files()
         {
             string aux;
+            /*
             FileStream fs = new FileStream("palabras.txt", FileMode.Open);
-            StreamReader sr = new StreamReader(fs);
             while ((aux = sr.ReadLine()) != null) palabras += aux;
+            StreamReader sr = new StreamReader(fs);*/
+            aux = File.ReadAllText("palabras.txt");
         }
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)

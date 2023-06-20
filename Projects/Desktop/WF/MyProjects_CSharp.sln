@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaTeTi_Desk", "TaTeTi_By_AlexLopez\TaTeTi_Desk.csproj", "{E6BEEB49-BB06-4EFF-AFC8-91BB53CC58EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TaTeTi_By_AlexLopez\TicTacToe.csproj", "{E6BEEB49-BB06-4EFF-AFC8-91BB53CC58EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lorem_Ipsum_Desk", "Generador_Lorem_Ipsum\Lorem_Ipsum_Desk.csproj", "{E5E25A19-B3A0-4768-B100-9DCD5A632BFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Block_De_Notas_Desk", "Block_De_Notas. Alex_Lopez\Block_De_Notas_Desk.csproj", "{76B4F290-2FC7-42E0-B848-A010143A6E64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimonSay", "SimonSayWF\SimonSayWF\SimonSay.csproj", "{B6B22E94-405D-4C8E-A966-5C79905A58C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora_Desk", "..\..\DesktopAppsCSharp\DesktopAppsCSharp\Calculadora_Desk.csproj", "{93424AF6-FF8E-4579-ADEB-5B3E6735DA81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessNumber", "GuessNumber\GuessNumber.csproj", "{C83D1D3D-7302-44D3-B9C5-929FEB463720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{51329AC1-5864-4C44-8597-2647F35E2A7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +27,18 @@ Global
 		{E5E25A19-B3A0-4768-B100-9DCD5A632BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5E25A19-B3A0-4768-B100-9DCD5A632BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5E25A19-B3A0-4768-B100-9DCD5A632BFA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76B4F290-2FC7-42E0-B848-A010143A6E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76B4F290-2FC7-42E0-B848-A010143A6E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76B4F290-2FC7-42E0-B848-A010143A6E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76B4F290-2FC7-42E0-B848-A010143A6E64}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93424AF6-FF8E-4579-ADEB-5B3E6735DA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93424AF6-FF8E-4579-ADEB-5B3E6735DA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93424AF6-FF8E-4579-ADEB-5B3E6735DA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93424AF6-FF8E-4579-ADEB-5B3E6735DA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B22E94-405D-4C8E-A966-5C79905A58C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B22E94-405D-4C8E-A966-5C79905A58C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B22E94-405D-4C8E-A966-5C79905A58C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B22E94-405D-4C8E-A966-5C79905A58C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83D1D3D-7302-44D3-B9C5-929FEB463720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83D1D3D-7302-44D3-B9C5-929FEB463720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83D1D3D-7302-44D3-B9C5-929FEB463720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83D1D3D-7302-44D3-B9C5-929FEB463720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51329AC1-5864-4C44-8597-2647F35E2A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51329AC1-5864-4C44-8597-2647F35E2A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51329AC1-5864-4C44-8597-2647F35E2A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51329AC1-5864-4C44-8597-2647F35E2A7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

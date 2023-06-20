@@ -1,0 +1,17 @@
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\bin\Debug\net6.0-windows\GuessNumber.exe
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\bin\Debug\net6.0-windows\GuessNumber.deps.json
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\bin\Debug\net6.0-windows\GuessNumber.runtimeconfig.json
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\bin\Debug\net6.0-windows\GuessNumber.dll
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\bin\Debug\net6.0-windows\GuessNumber.pdb
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\obj\Debug\net6.0-windows\GuessNumber.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\obj\Debug\net6.0-windows\GuessNumber.csproj.GenerateResource.cache
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\obj\Debug\net6.0-windows\GuessNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\obj\Debug\net6.0-windows\GuessNumber.AssemblyInfoInputs.cache
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\obj\Debug\net6.0-windows\GuessNumber.AssemblyInfo.cs
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\obj\Debug\net6.0-windows\GuessNumber.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\obj\Debug\net6.0-windows\GuessNumber.dll
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\obj\Debug\net6.0-windows\refint\GuessNumber.dll
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\obj\Debug\net6.0-windows\GuessNumber.pdb
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\obj\Debug\net6.0-windows\GuessNumber.genruntimeconfig.cache
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\obj\Debug\net6.0-windows\ref\GuessNumber.dll
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\GuessNumber\obj\Debug\net6.0-windows\GuessNumber.GuessNumberGUI.resources
