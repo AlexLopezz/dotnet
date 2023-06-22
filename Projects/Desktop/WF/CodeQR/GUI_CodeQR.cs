@@ -1,28 +1,26 @@
-using BarcodeLib;
-using System.Drawing.Imaging;
-
-namespace BarCode
+﻿using System.Drawing.Imaging;
+using QRCoder;
+namespace CodeQR
 {
-    public partial class GUI : Form
+    public partial class GUI_CodeQR : Form
     {
         #region VARIABLES
         SaveFileDialog? saveFileDialog;
         #endregion
-        
-        public GUI()
+        public GUI_CodeQR()
         {
             InitializeComponent();
             LoadFileDialog();
         }
-
-        #region EVENTS
+        #region UTILS
         /// <summary>
-        /// Este metodo verificara si el campo de texto del codigo de barras esta vacio o no.
+        /// Este metodo es el encargado de verificar si el campo contiene 
+        /// texto o no, para ser generado a QR
         /// </summary>
-        /// <returns>true - false, en caso de false lanzara un error de tipo ErrorProvider.</returns>
+        /// <returns>true - false, si retorna false mostrara un error de tipo ErrorProvider</returns>
         private bool CheckField()
         {
-            if (!string.IsNullOrEmpty(txtCodeBar.Text))
+            if (!string.IsNullOrEmpty(txtQR.Text))
             {
                 error.Clear();
                 return true;
@@ -30,15 +28,15 @@ namespace BarCode
             else
             {
                 error.SetError(
-                    txtCodeBar,
-                    "Your barcode must have a name!"
+                    txtQR,
+                    "Your QR must have a URL!"
                 );
                 return false;
             }
         }
         /// <summary>
-        /// Este metodo se encarga de inicializar con valores predeterminados
-        /// el cuadro de dialogo para guardar la imagen generada.
+        /// Este metodo inicializara el cuadro de dialogo encargado para 
+        /// guardar el QR generado.
         /// </summary>
         private void LoadFileDialog()
         {
@@ -47,53 +45,49 @@ namespace BarCode
             saveFileDialog.CheckPathExists = true;
             saveFileDialog.Filter = "Only Image PNG(*.png)|*.png";
         }
+        #endregion
+        #region EVENTS
         /// <summary>
-        /// Este es un evento que se lanzara cuando demos click al boton "Generate"
-        /// Basicamente generara un codigo de barras con el texto introducido por el usuario.
+        /// Este evento generara un QR con la URL adjunta que introdujo el usuario.
         /// </summary>
         private void PressGenerate(object sender, EventArgs e)
         {
             if (CheckField())
             {
-                error.SetError(txtCodeBar, string.Empty);
-                Barcode code = new Barcode();
-                code.IncludeLabel = true;
+                var QRGenerator = new QRCodeGenerator();
+                QRCodeData dataQR = QRGenerator.CreateQrCode(
+                    txtQR.Text,
+                    QRCodeGenerator.ECCLevel.Q);
 
-                Image imageBarCode = code.Encode(
-                    TYPE.CODE128,
-                    txtCodeBar.Text,
-                    Color.Black,
-                    Color.White);
-
-                picBarCode.Image = imageBarCode;
-                bttSave.Enabled = true;
+                QRCode qrCode = new QRCode(dataQR);
+                picQR.Image = qrCode.GetGraphic(5);
             }
         }
         /// <summary>
-        /// Este evento se lanzara cuando demos Click al boton "Save"
-        /// Guardara en imagen, el codigo de barras generado.
+        /// Este evento guardara el QR generado en formato .png
         /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void PressSave(object sender, EventArgs e)
         {
             if (CheckField())
             {
-                Image imgSave = (Image)picBarCode.Image.Clone();
+                Image imgSave = (Image)picQR.Image.Clone();
                 DialogResult result = saveFileDialog.ShowDialog();
 
-                if ( result == DialogResult.OK &&
+                if (result == DialogResult.OK &&
                     !string.IsNullOrEmpty(saveFileDialog.FileName))
                 {
                     string PATH = saveFileDialog.FileName;
                     imgSave.Save(PATH, ImageFormat.Png);
                     MessageBox.Show(
-                        "Code bar save correctly!",
+                        "Your QR save correctly!",
                         "Succes!",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
                 }
                 imgSave.Dispose();
             }
-            else bttSave.Enabled = false;
         }
         #endregion
     }

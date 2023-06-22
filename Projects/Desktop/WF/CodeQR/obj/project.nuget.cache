@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mjjyExgqtyo8m5P2KWOUTiKqWhfrb5VDx4fCQYF8CtHbV/Oghz6lHi5+3o3CRClp+isHCauQ1cpm2hzUTffscQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\Desktop\\WF\\CodeQR\\CodeQR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexdev\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\alexdev\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
+    "C:\\Users\\alexdev\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

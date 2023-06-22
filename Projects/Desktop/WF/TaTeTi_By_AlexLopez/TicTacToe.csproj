@@ -46,22 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationTaTeTi.cs">
+    <Compile Include="GUI-TicTacToe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ApplicationTaTeTi.Designer.cs">
-      <DependentUpon>ApplicationTaTeTi.cs</DependentUpon>
+    <Compile Include="GUI-TicTacToe.Designer.cs">
+      <DependentUpon>GUI-TicTacToe.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegUser.cs">
+    <Compile Include="GUI-RegUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegUser.Designer.cs">
-      <DependentUpon>RegUser.cs</DependentUpon>
+    <Compile Include="GUI-RegUser.Designer.cs">
+      <DependentUpon>GUI-RegUser.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ApplicationTaTeTi.resx">
-      <DependentUpon>ApplicationTaTeTi.cs</DependentUpon>
+    <EmbeddedResource Include="GUI-TicTacToe.resx">
+      <DependentUpon>GUI-TicTacToe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -73,8 +73,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RegUser.resx">
-      <DependentUpon>RegUser.cs</DependentUpon>
+    <EmbeddedResource Include="GUI-RegUser.resx">
+      <DependentUpon>GUI-RegUser.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -44,7 +44,7 @@
             // 
             // bttCodeBar
             // 
-            bttCodeBar.Location = new Point(130, 239);
+            bttCodeBar.Location = new Point(130, 256);
             bttCodeBar.Name = "bttCodeBar";
             bttCodeBar.Size = new Size(118, 23);
             bttCodeBar.TabIndex = 0;
@@ -55,7 +55,7 @@
             // bttSave
             // 
             bttSave.Enabled = false;
-            bttSave.Location = new Point(149, 268);
+            bttSave.Location = new Point(149, 285);
             bttSave.Name = "bttSave";
             bttSave.Size = new Size(75, 23);
             bttSave.TabIndex = 1;
@@ -69,7 +69,7 @@
             panelCodeBar.Controls.Add(picBarCode);
             panelCodeBar.Location = new Point(12, 12);
             panelCodeBar.Name = "panelCodeBar";
-            panelCodeBar.Size = new Size(360, 177);
+            panelCodeBar.Size = new Size(360, 194);
             panelCodeBar.TabIndex = 2;
             // 
             // picBarCode
@@ -77,14 +77,13 @@
             picBarCode.Dock = DockStyle.Fill;
             picBarCode.Location = new Point(0, 0);
             picBarCode.Name = "picBarCode";
-            picBarCode.Size = new Size(360, 177);
-            picBarCode.SizeMode = PictureBoxSizeMode.CenterImage;
+            picBarCode.Size = new Size(360, 194);
             picBarCode.TabIndex = 0;
             picBarCode.TabStop = false;
             // 
             // txtCodeBar
             // 
-            txtCodeBar.Location = new Point(12, 210);
+            txtCodeBar.Location = new Point(12, 227);
             txtCodeBar.Name = "txtCodeBar";
             txtCodeBar.Size = new Size(315, 23);
             txtCodeBar.TabIndex = 3;
@@ -92,7 +91,7 @@
             // lblTextCodeBar
             // 
             lblTextCodeBar.AutoSize = true;
-            lblTextCodeBar.Location = new Point(12, 192);
+            lblTextCodeBar.Location = new Point(12, 209);
             lblTextCodeBar.Name = "lblTextCodeBar";
             lblTextCodeBar.Size = new Size(117, 15);
             lblTextCodeBar.TabIndex = 4;
