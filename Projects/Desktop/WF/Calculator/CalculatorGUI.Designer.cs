@@ -125,6 +125,8 @@
             // bttPoint
             // 
             bttPoint.Dock = DockStyle.Fill;
+            bttPoint.FlatAppearance.BorderSize = 0;
+            bttPoint.FlatStyle = FlatStyle.Flat;
             bttPoint.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             bttPoint.Location = new Point(191, 246);
             bttPoint.Name = "bttPoint";
@@ -132,10 +134,13 @@
             bttPoint.TabIndex = 11;
             bttPoint.Text = ".";
             bttPoint.UseVisualStyleBackColor = true;
+            bttPoint.Click += pressButton;
             // 
             // btt0
             // 
             btt0.Dock = DockStyle.Fill;
+            btt0.FlatAppearance.BorderSize = 0;
+            btt0.FlatStyle = FlatStyle.Flat;
             btt0.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             btt0.Location = new Point(97, 246);
             btt0.Name = "btt0";
@@ -148,6 +153,8 @@
             // btt3
             // 
             btt3.Dock = DockStyle.Fill;
+            btt3.FlatAppearance.BorderSize = 0;
+            btt3.FlatStyle = FlatStyle.Flat;
             btt3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             btt3.Location = new Point(191, 165);
             btt3.Name = "btt3";
@@ -160,6 +167,8 @@
             // btt2
             // 
             btt2.Dock = DockStyle.Fill;
+            btt2.FlatAppearance.BorderSize = 0;
+            btt2.FlatStyle = FlatStyle.Flat;
             btt2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             btt2.Location = new Point(97, 165);
             btt2.Name = "btt2";
@@ -172,6 +181,8 @@
             // btt1
             // 
             btt1.Dock = DockStyle.Fill;
+            btt1.FlatAppearance.BorderSize = 0;
+            btt1.FlatStyle = FlatStyle.Flat;
             btt1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             btt1.Location = new Point(3, 165);
             btt1.Name = "btt1";
@@ -184,6 +195,8 @@
             // btt6
             // 
             btt6.Dock = DockStyle.Fill;
+            btt6.FlatAppearance.BorderSize = 0;
+            btt6.FlatStyle = FlatStyle.Flat;
             btt6.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             btt6.Location = new Point(191, 84);
             btt6.Name = "btt6";
@@ -196,6 +209,8 @@
             // btt5
             // 
             btt5.Dock = DockStyle.Fill;
+            btt5.FlatAppearance.BorderSize = 0;
+            btt5.FlatStyle = FlatStyle.Flat;
             btt5.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             btt5.Location = new Point(97, 84);
             btt5.Name = "btt5";
@@ -208,6 +223,8 @@
             // btt4
             // 
             btt4.Dock = DockStyle.Fill;
+            btt4.FlatAppearance.BorderSize = 0;
+            btt4.FlatStyle = FlatStyle.Flat;
             btt4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             btt4.Location = new Point(3, 84);
             btt4.Name = "btt4";
@@ -220,6 +237,8 @@
             // btt9
             // 
             btt9.Dock = DockStyle.Fill;
+            btt9.FlatAppearance.BorderSize = 0;
+            btt9.FlatStyle = FlatStyle.Flat;
             btt9.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             btt9.Location = new Point(191, 3);
             btt9.Name = "btt9";
@@ -232,6 +251,8 @@
             // btt8
             // 
             btt8.Dock = DockStyle.Fill;
+            btt8.FlatAppearance.BorderSize = 0;
+            btt8.FlatStyle = FlatStyle.Flat;
             btt8.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             btt8.Location = new Point(97, 3);
             btt8.Name = "btt8";
@@ -244,6 +265,8 @@
             // btt7
             // 
             btt7.Dock = DockStyle.Fill;
+            btt7.FlatAppearance.BorderSize = 0;
+            btt7.FlatStyle = FlatStyle.Flat;
             btt7.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             btt7.Location = new Point(3, 3);
             btt7.Name = "btt7";
@@ -255,13 +278,15 @@
             // 
             // bttGitHub
             // 
+            bttGitHub.BackColor = Color.FromArgb(255, 195, 0);
             bttGitHub.Dock = DockStyle.Fill;
+            bttGitHub.FlatStyle = FlatStyle.Popup;
             bttGitHub.Image = Properties.Resources.github_light;
             bttGitHub.Location = new Point(3, 246);
             bttGitHub.Name = "bttGitHub";
             bttGitHub.Size = new Size(88, 76);
             bttGitHub.TabIndex = 0;
-            bttGitHub.UseVisualStyleBackColor = true;
+            bttGitHub.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel4
             // 
@@ -385,6 +410,7 @@
             bttNightMode.Size = new Size(80, 73);
             bttNightMode.TabIndex = 2;
             bttNightMode.UseVisualStyleBackColor = true;
+            bttNightMode.Click += PressNightMode;
             // 
             // bttDelete
             // 

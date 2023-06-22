@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "hV0aToeBsLsfQVgtx9R/klzFRsskY5kmzTEkfSKUQJvp/g1eY9TeK7MIbZ0xKVaPi2zloUiNZ95tL5K+iwsnmg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\Desktop\\WF\\BarCode\\BarCode.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexdev\\.nuget\\packages\\barcodelib\\1.0.0.20\\barcodelib.1.0.0.20.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BarcodeLib 1.0.0.20' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BarcodeLib",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

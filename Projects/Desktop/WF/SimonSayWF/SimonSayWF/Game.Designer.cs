@@ -59,7 +59,7 @@
             // 
             bttNoodle_3.FlatAppearance.BorderSize = 0;
             bttNoodle_3.FlatStyle = FlatStyle.Flat;
-            bttNoodle_3.Image = Properties.Resources.spaguetti;
+            bttNoodle_3.Image = SimonSay.Properties.Resources.spaguetti;
             bttNoodle_3.Location = new Point(246, 160);
             bttNoodle_3.Name = "bttNoodle_3";
             bttNoodle_3.Size = new Size(130, 92);
@@ -73,7 +73,7 @@
             // 
             bttEmpanada_1.FlatAppearance.BorderSize = 0;
             bttEmpanada_1.FlatStyle = FlatStyle.Flat;
-            bttEmpanada_1.Image = Properties.Resources.empanada;
+            bttEmpanada_1.Image = SimonSay.Properties.Resources.empanada;
             bttEmpanada_1.Location = new Point(246, 62);
             bttEmpanada_1.Name = "bttEmpanada_1";
             bttEmpanada_1.Size = new Size(130, 92);
@@ -87,7 +87,7 @@
             // 
             bttBurguer_0.FlatAppearance.BorderSize = 0;
             bttBurguer_0.FlatStyle = FlatStyle.Flat;
-            bttBurguer_0.Image = Properties.Resources.hamburger;
+            bttBurguer_0.Image = SimonSay.Properties.Resources.hamburger;
             bttBurguer_0.Location = new Point(110, 62);
             bttBurguer_0.Name = "bttBurguer_0";
             bttBurguer_0.Size = new Size(130, 92);

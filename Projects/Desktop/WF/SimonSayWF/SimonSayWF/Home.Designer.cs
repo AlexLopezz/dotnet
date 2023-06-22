@@ -74,7 +74,7 @@
             // 
             // imgFood
             // 
-            imgFood.Image = Properties.Resources.plato;
+            imgFood.Image = SimonSay.Properties.Resources.plato;
             imgFood.Location = new Point(354, 184);
             imgFood.Name = "imgFood";
             imgFood.Size = new Size(45, 34);
