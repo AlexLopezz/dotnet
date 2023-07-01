@@ -1,0 +1,11 @@
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\WordCounter.csproj.AssemblyReference.cache
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\WordCounter.csproj.SuggestedBindingRedirects.cache
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\Generador_Lorem_Ipsum.Properties.Resources.resources
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\WordCounter.csproj.GenerateResource.cache
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\WordCounter.csproj.CoreCompileInputs.cache
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\Generador_Lorem_Ipsum.exe
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\Generador_Lorem_Ipsum.pdb
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\bin\Debug\Generador_Lorem_Ipsum.exe.config
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\bin\Debug\Generador_Lorem_Ipsum.exe
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\bin\Debug\Generador_Lorem_Ipsum.pdb
+C:\Users\alexdev\Documents\DotNet\Projects\Desktop\WF\Generador_Lorem_Ipsum\obj\Debug\Generador_Lorem_Ipsum.GUI_CountWord.resources
