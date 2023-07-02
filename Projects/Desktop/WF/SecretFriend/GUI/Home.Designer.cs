@@ -34,7 +34,7 @@
             pictureBox3 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
-            button4 = new Button();
+            bttExit = new Button();
             bttSave = new Button();
             bttList = new Button();
             bttSecretFriend = new Button();
@@ -53,7 +53,7 @@
             panelHome.Controls.Add(pictureBox3);
             panelHome.Controls.Add(pictureBox2);
             panelHome.Controls.Add(pictureBox1);
-            panelHome.Controls.Add(button4);
+            panelHome.Controls.Add(bttExit);
             panelHome.Controls.Add(bttSave);
             panelHome.Controls.Add(bttList);
             panelHome.Controls.Add(bttSecretFriend);
@@ -104,17 +104,17 @@
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             // 
-            // button4
+            // bttExit
             // 
-            button4.BackColor = Color.FromArgb(255, 128, 128);
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Location = new Point(199, 281);
-            button4.Name = "button4";
-            button4.Size = new Size(286, 68);
-            button4.TabIndex = 7;
-            button4.Text = "¡TERMINAR JUEGO!";
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
+            bttExit.BackColor = Color.FromArgb(255, 128, 128);
+            bttExit.FlatStyle = FlatStyle.Flat;
+            bttExit.Location = new Point(199, 281);
+            bttExit.Name = "bttExit";
+            bttExit.Size = new Size(286, 68);
+            bttExit.TabIndex = 7;
+            bttExit.Text = "¡TERMINAR JUEGO!";
+            bttExit.UseVisualStyleBackColor = false;
+            bttExit.Click += bttExit_Click;
             // 
             // bttSave
             // 
@@ -191,7 +191,7 @@
         private Button bttSave;
         private Button bttList;
         private Button bttSecretFriend;
-        private Button button4;
+        private Button bttExit;
         private PictureBox pictureBox4;
         private PictureBox pictureBox3;
         private PictureBox pictureBox2;

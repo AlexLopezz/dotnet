@@ -12,15 +12,26 @@ namespace SecretFriend.GUI
 {
     public partial class SettingParticipants : Form
     {
-        string[] participants;
+        #region VARIABLES
+
+        string[] participants; 
         bool ExistParticipant;
-        Home home;
+  
+
+        #endregion
         public SettingParticipants()
         {
             InitializeComponent();
             cboCountParticipants.SelectedIndex = 0;
         }
 
+        #region EVENTS
+        /// <summary>
+        /// Este evento verificara si la lista y arreglo esta cargado de
+        /// participantes y luego mostrara el formulario de opciones del Home.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void PressOK(object sender, EventArgs e)
         {
             if (cboCountParticipants.SelectedIndex != 0)
@@ -97,12 +108,66 @@ namespace SecretFriend.GUI
                 MessageBox.Show("Esta vacio.");
             }
         }
-
-        private void bttReset_Click(object sender, EventArgs e)
+        private void bttReset_Click(object sender, EventArgs e) => ResetGame();
+        private void bttReady_Click(object sender, EventArgs e)
         {
-            ResetGame();
+            Home home = new Home(FillSecretFriend(participants));
+            home.Show();
+            this.Hide();
         }
+        #endregion
 
+
+        #region UTILS
+        /// <summary>
+        /// Este metodo es el encargado de rellenar la lista de participantes
+        /// con sus respectivos amigos invisibles.
+        /// </summary>
+        /// <param name="participants"></param>
+        /// <returns></returns>
+        Dictionary<string, string> FillSecretFriend(string[] participants)
+        {
+            
+            bool isSelectedParticipant; //Servira para verificar si se selecciono o no un participante.
+            string[] selectedParticipants = new string[participants.Length]; //Servira para almacenar aquellos participantes seleccionados.
+            var secretFriend = new Dictionary<string, string>(); //Servira para rellenar un diccionario con participantes y su amigo invisible
+            var random = new Random(); //Para elegir cualquier participante de la lista de participantes.
+
+
+            for (int i = 0; i < participants.Length; i++)
+            {
+                
+                do
+                {
+                    //Obtenemos en una variable un participante random de la lista.
+                    string potentialParticipant = participants[random.Next(0, participants.Length)]; 
+
+                    //Si ese participante no es el mismo que el participante actual ni tampoco es parte de la lista de participantes seleccionados:
+                    if (!participants[i].Equals(potentialParticipant) &&
+                        !IsSelectedParticipant(selectedParticipants, potentialParticipant))
+                    {
+                        //Vamos a agregar a la lista de participantes seleccionados el participante agregado al diccionario, para no tener repetidos.
+                        selectedParticipants[i] = potentialParticipant;
+                        //Luego, procedemos a agregar a el diccionario como clave: el participante y como valor, el participante random seleccionado anteriormente.
+                        secretFriend.Add(participants[i], selectedParticipants[i]);
+
+                        //Cambiamos el valor a true, para salir del bucle de verificacion.
+                        isSelectedParticipant = true;
+                    }
+                    else
+                    {
+                        //Si no se cumple con la condicion propuesta, volvemos a iterar... Hasta que toque un participante que cumpla con la condicion.
+                        isSelectedParticipant = false; 
+                    }
+                } while (!isSelectedParticipant);
+            }
+
+            //Por ultimo, vamos a retornar el diccionario con los respectivos participantes y amigos invisibles.
+            return secretFriend;
+        }
+        /// <summary>
+        /// Este metodo cambiara los valores de configuracion, a la normalidad.
+        /// </summary>
         void ResetGame()
         {
             bttOK.Enabled = true;
@@ -112,7 +177,9 @@ namespace SecretFriend.GUI
             ResetParticipants();
             lboParticipants.Items.Clear();
         }
-
+        /// <summary>
+        /// Este metodo modificara todos los valores del arreglo y lo dejara vacio.
+        /// </summary>
         void ResetParticipants()
         {
             for (int i = 0; i < participants.Length; i++)
@@ -120,45 +187,21 @@ namespace SecretFriend.GUI
                 participants[i] = string.Empty;
             }
         }
+
+        /// <summary>
+        /// Este metodo verificara si existe un participante con el nombre ingresado.
+        /// </summary>
+        /// <param name="participant">Nombre</param>
+        /// <returns></returns>
         bool CheckIfParticipantExist(String participant) => participants.Contains(participant);
-
-        private void bttReady_Click(object sender, EventArgs e)
-        {
-            home = new Home(FillSecretFriend(participants));
-            home.Show();
-            this.Hide();
-        }
-
+        /// <summary>
+        ///  Este metodo verificara si existe en la lista de participantes
+        ///  seleccionados, el nombre del participante
+        /// </summary>
+        /// <param name="selectedParticipants"></param>
+        /// <param name="nombreParticipante"></param>
+        /// <returns></returns>
         bool IsSelectedParticipant(String[] selectedParticipants, String nombreParticipante) => selectedParticipants.Any(p => p != null && p.Equals(nombreParticipante));
-        Dictionary<string, string> FillSecretFriend(string[] participants)
-        {
-            bool isSelectedParticipant;
-            string[] selectedParticipants = new string[participants.Length];
-            var random = new Random();
-
-            Dictionary<string, string> secretFriend = new Dictionary<string, string>();
-
-            for (int i = 0; i < participants.Length; i++)
-            {
-                do
-                {
-                    string potentialParticipant = participants[random.Next(0, participants.Length)];
-
-                    if (!participants[i].Equals(potentialParticipant) &&
-                        !IsSelectedParticipant(selectedParticipants, potentialParticipant))
-                    {
-
-                        selectedParticipants[i] = potentialParticipant;
-                        secretFriend.Add(participants[i], selectedParticipants[i]);
-                        isSelectedParticipant = true;
-                    }
-                    else
-                    {
-                        isSelectedParticipant = false;
-                    }
-                } while (!isSelectedParticipant);
-            }
-            return secretFriend;
-        }
+        #endregion
     }
 }

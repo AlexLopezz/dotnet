@@ -140,6 +140,8 @@
             ClientSize = new Size(451, 235);
             Controls.Add(panelSecretFriend);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "CheckSecretFriend";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "¿Quien es tu amigo invisible?";

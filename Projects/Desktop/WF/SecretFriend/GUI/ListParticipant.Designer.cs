@@ -100,6 +100,8 @@
             ClientSize = new Size(584, 361);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "ListParticipant";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Lista de participantes";

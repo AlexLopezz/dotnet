@@ -13,33 +13,56 @@ namespace SecretFriend.GUI
 {
     public partial class Home : Form
     {
-        ListParticipant listParticipant;
-        CheckSecretFriend checkSecretFriend;
+        #region VARIABLES
         SaveFileDialog saveFileDialog;
         Dictionary<string, string> participants;
-
-        public Home(Dictionary<string, string> participants)
+        #endregion
+        public Home(Dictionary<string, string> fillParticipants)
         {
             InitializeComponent();
-            this.participants = participants;
-            listParticipant = new ListParticipant(participants);
-            checkSecretFriend = new CheckSecretFriend(participants);
+            this.participants = fillParticipants;
             saveFileDialog = new SaveFileDialog();
         }
 
-        private void PressListButton(object sender, EventArgs e) => listParticipant.Show();
-        private void bttSecretFriend_Click(object sender, EventArgs e) => checkSecretFriend.Show();
-        private void button4_Click(object sender, EventArgs e) => Application.Exit();
+        #region EVENTS
+        /// <summary>
+        /// Este evento mostrara el formulario de la lista de participantes.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void PressListButton(object sender, EventArgs e)
+        {
+            ListParticipant listParticipant = new ListParticipant(participants);
+            listParticipant.Show();
+        }
+        /// <summary>
+        /// Este evento mostrara el formulario de verificar por el nombre del participante
+        /// el amigo invisible.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void bttSecretFriend_Click(object sender, EventArgs e)
+        {
+            CheckSecretFriend checkSecretFriend = new CheckSecretFriend(this.participants);
+            checkSecretFriend.Show();
+        }
+        /// <summary>
+        /// Este evento mostrara un cuadro de dialogo de guardado, donde el usuario debera
+        /// indicar la ruta donde desea guardar en .txt la lista de participantes.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void PressSaveButton(object sender, EventArgs e)
         {
             saveFileDialog.Filter = "Archivos de texto(*.txt)|*.txt";
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                try{
+                try
+                {
                     StreamWriter streamWriter = new StreamWriter(saveFileDialog.FileName);
                     foreach (var sf in participants)
                     {
-                        streamWriter.WriteLine("Participante: "+sf.Key+ " | Amigo invisible: "+sf.Value);
+                        streamWriter.WriteLine("Participante: " + sf.Key + " | Amigo invisible: " + sf.Value);
                     }
                     streamWriter.Close();
 
@@ -59,9 +82,15 @@ namespace SecretFriend.GUI
                         MessageBoxIcon.Error);
                 }
 
-               
+
             }
         }
-
+        #endregion
+        /// <summary>
+        /// Este evento finalizara la aplicacion.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void bttExit_Click(object sender, EventArgs e) => Application.Exit();
     }
 }
