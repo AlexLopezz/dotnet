@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FEZdoE8wFqTityebF9nXSvATTSgiBznMc1UNrJxbiPZcFBkPYhC9j1SrMh4EbwoXhmZUo9znVr8Use2+lBQGOA==",
+  "dgSpecHash": "GBDTi79A/10aYC158k4r1/92HNyvZpPoGYzPUWsr6SSdd0U4hmh2VZBZpOjBD0hldY24jBv3Dyr3O20hPNHBkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexdev\\Documents\\Github\\Dotnet\\MVC\\IntrodBoostrap\\IntrodBoostrap.csproj",
+  "projectFilePath": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\MVC\\IntrodBoostrap\\IntrodBoostrap.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

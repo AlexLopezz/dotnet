@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexdev\\Documents\\Github\\Dotnet\\MVC\\IntrodBoostrap\\IntrodBoostrap.csproj": {}
+    "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\MVC\\IntrodBoostrap\\IntrodBoostrap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexdev\\Documents\\Github\\Dotnet\\MVC\\IntrodBoostrap\\IntrodBoostrap.csproj": {
+    "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\MVC\\IntrodBoostrap\\IntrodBoostrap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexdev\\Documents\\Github\\Dotnet\\MVC\\IntrodBoostrap\\IntrodBoostrap.csproj",
+        "projectUniqueName": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\MVC\\IntrodBoostrap\\IntrodBoostrap.csproj",
         "projectName": "IntrodBoostrap",
-        "projectPath": "C:\\Users\\alexdev\\Documents\\Github\\Dotnet\\MVC\\IntrodBoostrap\\IntrodBoostrap.csproj",
+        "projectPath": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\MVC\\IntrodBoostrap\\IntrodBoostrap.csproj",
         "packagesPath": "C:\\Users\\alexdev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexdev\\Documents\\Github\\Dotnet\\MVC\\IntrodBoostrap\\obj\\",
+        "outputPath": "C:\\Users\\alexdev\\Documents\\DotNet\\Projects\\MVC\\IntrodBoostrap\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexdev\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23330.10\\RuntimeIdentifierGraph.json"
         }
       }
     }
